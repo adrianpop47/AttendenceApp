@@ -31,8 +31,9 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   http: ^0.13.4
-  image_picker: ^0.8.4+11
   camera: 0.9.4+16
+  wakelock: ^0.6.1+2
+  another_flushbar: ^1.10.28
 
 
 dev_dependencies:
