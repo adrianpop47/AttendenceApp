@@ -1,5 +1,9 @@
 from flask import Flask, request, jsonify
 
+from backend.model.user import User
+from backend.repository.database_repository import DatabaseRepository
+from backend.utils.config import DATABASE_CONNECTION_STRING
+
 
 class NetworkController:
 
@@ -32,5 +36,16 @@ class NetworkController:
                     "data": str(response.data)
                 })
 
-        self.app.run(debug=True, host=self.ip, port=self.port)
+        @self.app.route('/test', methods=['GET'])
+        def test():
+            if request.method == "GET":
+                userRepository = DatabaseRepository(DATABASE_CONNECTION_STRING, User)
+                user = User()
+                user.name = "n"
+                user.password = "pass"
+                user.email = "mail1222"
+                user.role = "role1113344"
+                userRepository.delete(1)
+                print(userRepository.get_all())
 
+        self.app.run(debug=True, host=self.ip, port=self.port)

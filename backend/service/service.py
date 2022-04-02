@@ -3,8 +3,9 @@ import cv2
 
 class Service:
 
-    def __init__(self, faceRecognition):
+    def __init__(self, faceRecognition, userRepository):
         self.faceRecognition = faceRecognition
+        self.userRepository = userRepository
 
     def check_in(self, image_file):
         response = self.recognize_face(image_file)
