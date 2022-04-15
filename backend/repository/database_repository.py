@@ -17,12 +17,15 @@ class DatabaseRepository(AbstractRepository):
         try:
             session.add(entity)
             session.commit()
-            logging.info("Record inserted with success")
+            session.refresh(entity)
+            logging.info("Record with id {} inserted with success".format(entity.id))
+            return entity.id
         except SQLAlchemyError as e:
             logging.error(e)
             session.rollback()
         finally:
             session.close()
+        return None
 
     def get(self, id_):
         logging.info("Returning {} with id {} from database".format(self.entity_type.__name__, id_))

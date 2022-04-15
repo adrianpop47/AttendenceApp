@@ -1,22 +1,25 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:frontend/controllers/login_controller.dart';
+import 'package:frontend/controllers/network_controller.dart';
 import 'package:frontend/widgets/camera_widgets/camera_preview_widget.dart';
 import 'package:frontend/widgets/camera_widgets/take_photo_widget.dart';
 
 import '../controllers/camera_controller.dart';
+import '../widgets/login_widgets/take_register_photo_widget.dart';
 
-class CameraScreen extends StatefulWidget {
+class RegisterPhotoScreen extends StatefulWidget {
   final CameraDescription frontCamera;
-  final CamController camController;
-  const CameraScreen(
-      {Key? key, required this.frontCamera, required this.camController})
+  final Function callback;
+  const RegisterPhotoScreen(
+      {Key? key, required this.frontCamera, required this.callback})
       : super(key: key);
 
   @override
-  State<CameraScreen> createState() => _CameraScreenState();
+  State<RegisterPhotoScreen> createState() => _RegisterPhotoScreenState();
 }
 
-class _CameraScreenState extends State<CameraScreen> {
+class _RegisterPhotoScreenState extends State<RegisterPhotoScreen> {
   late CameraController _cameraController;
   late Future<void> _initializeControllerFuture;
 
@@ -56,10 +59,10 @@ class _CameraScreenState extends State<CameraScreen> {
                   CameraPreviewWidget(
                       cameraController: _cameraController,
                       initializeControllerFuture: _initializeControllerFuture),
-                  TakePhotoWidget(
+                  TakeRegisterPhotoWidget(
                       cameraController: _cameraController,
                       initializeControllerFuture: _initializeControllerFuture,
-                      camController: widget.camController)
+                      callback: widget.callback)
                 ],
               );
             } else {

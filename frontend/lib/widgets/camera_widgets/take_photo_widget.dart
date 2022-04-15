@@ -1,22 +1,18 @@
-import 'dart:developer';
-
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:frontend/controllers/network_controller.dart';
 import 'package:frontend/utils/attendance_type.dart';
 
-import '../utils/response.dart';
-import '../utils/show_message.dart';
+import '../../controllers/camera_controller.dart';
 
 class TakePhotoWidget extends StatefulWidget {
   final CameraController cameraController;
   final Future<void> initializeControllerFuture;
-  final NetworkController networkController;
+  final CamController camController;
   const TakePhotoWidget(
       {Key? key,
       required this.cameraController,
       required this.initializeControllerFuture,
-      required this.networkController})
+      required this.camController})
       : super(key: key);
 
   @override
@@ -25,7 +21,7 @@ class TakePhotoWidget extends StatefulWidget {
 
 class _TakePhotoWidgetState extends State<TakePhotoWidget> {
   String _attendanceType = CHECK_IN;
-  late XFile capturedImage;
+  late XFile _capturedImage;
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +43,7 @@ class _TakePhotoWidgetState extends State<TakePhotoWidget> {
                 alignment: const Alignment(-0.5, 0),
                 child: ElevatedButton(
                   onPressed: () {
-                    _changeActionText(CHECK_IN);
+                    setAttendanceType(CHECK_IN);
                   },
                   child: const Icon(
                     Icons.input,
@@ -85,7 +81,7 @@ class _TakePhotoWidgetState extends State<TakePhotoWidget> {
                 alignment: const Alignment(0.5, 0),
                 child: ElevatedButton(
                   onPressed: () {
-                    _changeActionText(CHECK_OUT);
+                    setAttendanceType(CHECK_OUT);
                   },
                   child: const Icon(
                     Icons.output,
@@ -105,28 +101,24 @@ class _TakePhotoWidgetState extends State<TakePhotoWidget> {
     );
   }
 
-  void _changeActionText(String text) {
+  void setAttendanceType(String text) {
     setState(() {
       _attendanceType = text;
+    });
+  }
+
+  void setCapturedImage(XFile image) {
+    setState(() {
+      _capturedImage = image;
     });
   }
 
   void _takePhoto() async {
     await widget.initializeControllerFuture;
     var image = await widget.cameraController.takePicture();
-    setState(() {
-      capturedImage = image;
-    });
-    _attendanceType == CHECK_IN ? _checkIn() : _checkOut();
-  }
-
-  void _checkIn() async {
-    Response response = await widget.networkController.checkIn(capturedImage);
-    handleAttendanceMessage(context, CHECK_IN, response);
-  }
-
-  void _checkOut() async {
-    Response response = await widget.networkController.checkOut(capturedImage);
-    handleAttendanceMessage(context, CHECK_OUT, response);
+    setCapturedImage(image);
+    _attendanceType == CHECK_IN
+        ? widget.camController.checkIn(context, _capturedImage)
+        : widget.camController.checkOut(context, _capturedImage);
   }
 }

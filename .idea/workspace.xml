@@ -28,12 +28,24 @@
     <list default="true" id="be57ef98-8848-4a6d-989a-06a9d0a91f38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controller/network_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controller/network_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/face_recognition/face_encodings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/face_recognition/face_encodings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/face_recognition/recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/face_recognition/recognition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/model/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/model/person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/repository/database_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/repository/database_repository.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/service/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/service/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/temp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/temp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/utils/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/controllers/network_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/controllers/network_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/camera_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/camera_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/lib/utils/config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/utils/config.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/utils/response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/utils/response.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/utils/show_message.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/utils/show_message.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/widgets/camera_preview_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/widgets/camera_widgets/camera_preview_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/widgets/take_photo_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/widgets/camera_widgets/take_photo_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,10 +249,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="531" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1646904858530" />
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1648892488705">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1648994758716">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1648892488705" />
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1648994758716" />
     <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1646884819760">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -253,22 +265,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1648038917352" />
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1648942777296">
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1650036120882">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1648942777296" />
-    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1648942777295">
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1650036120882" />
+    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1650036120882">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1648942777295" />
-    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1648942777295">
+    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1650036120882" />
+    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1650036120882">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1648942777295" />
-    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1648942777296">
+    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1650036120882" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1650036120882">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1648942777296" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1650036120882" />
     <state width="1515" height="258" key="GridCell.Tab.1.bottom" timestamp="1647455099894">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -289,6 +301,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1648892965262" />
+    <state x="431" y="137" key="search.everywhere.popup" timestamp="1649077751950">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1649077751950" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

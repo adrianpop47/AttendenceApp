@@ -14,16 +14,7 @@ class CameraPreviewWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ClipRRect(
       borderRadius: const BorderRadius.all(Radius.circular(15)),
-      child: FutureBuilder<void>(
-        future: initializeControllerFuture,
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.done) {
-            return CameraPreview(cameraController);
-          } else {
-            return const Center(child: CircularProgressIndicator());
-          }
-        },
-      ),
+      child: CameraPreview(cameraController),
     );
   }
 }

@@ -2,7 +2,7 @@
 import logging
 import sys
 
-IP = "192.168.100.8"
+IP = "192.168.0.104"
 PORT = 4000
 
 # Database config:

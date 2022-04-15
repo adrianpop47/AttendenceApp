@@ -1,191 +1,591 @@
-2022-04-03 01:30:13,781 [INFO]  * Restarting with stat
-2022-04-03 01:30:16,341 [WARNING]  * Debugger is active!
-2022-04-03 01:30:16,347 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 01:30:16,553 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 01:30:39,938 [INFO] Inserting None. nam33333e, mail1222, pass, role1113344 to database
-2022-04-03 01:30:40,446 [INFO] 192.168.100.8 - - [03/Apr/2022 01:30:40] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 01:37:06,994 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
-2022-04-03 01:37:07,156 [INFO]  * Restarting with stat
-2022-04-03 01:37:09,633 [WARNING]  * Debugger is active!
-2022-04-03 01:37:09,641 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 01:37:09,846 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 01:47:36,054 [INFO]  * Restarting with stat
-2022-04-03 01:47:38,390 [WARNING]  * Debugger is active!
-2022-04-03 01:47:38,398 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 01:47:38,601 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 01:47:42,914 [INFO] Inserting <class 'backend.model.user.User'> to database
-2022-04-03 01:47:43,404 [INFO] 192.168.100.8 - - [03/Apr/2022 01:47:43] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 01:48:24,788 [INFO]  * Restarting with stat
-2022-04-03 01:48:27,086 [WARNING]  * Debugger is active!
-2022-04-03 01:48:27,092 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 01:48:27,295 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 01:48:36,239 [INFO] Inserting <class 'backend.model.user.User'> to database
-2022-04-03 01:48:36,612 [INFO] 192.168.100.8 - - [03/Apr/2022 01:48:36] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 01:48:49,532 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
-2022-04-03 01:48:49,654 [INFO]  * Restarting with stat
-2022-04-03 01:48:52,138 [WARNING]  * Debugger is active!
-2022-04-03 01:48:52,145 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 01:48:52,359 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 01:50:21,368 [INFO]  * Restarting with stat
-2022-04-03 01:50:23,690 [WARNING]  * Debugger is active!
-2022-04-03 01:50:23,697 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 01:50:23,900 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 01:50:50,313 [INFO] Inserting <class 'backend.model.user.User'> to database
-2022-04-03 01:50:51,146 [INFO] Returning <class 'backend.model.user.User'> with id 1
-2022-04-03 01:50:51,373 [INFO] 192.168.100.8 - - [03/Apr/2022 01:50:51] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 01:51:14,186 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
-2022-04-03 01:51:14,324 [INFO]  * Restarting with stat
-2022-04-03 01:51:16,786 [WARNING]  * Debugger is active!
-2022-04-03 01:51:16,793 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 01:51:16,994 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 01:51:35,842 [INFO]  * Restarting with stat
-2022-04-03 01:51:38,140 [WARNING]  * Debugger is active!
-2022-04-03 01:51:38,147 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 01:51:38,351 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 01:51:51,205 [INFO] Inserting <class 'backend.model.user.User'> to database
-2022-04-03 01:51:51,544 [INFO] Returning <class 'backend.model.user.User'> with id 1
-2022-04-03 01:51:51,560 [INFO] 192.168.100.8 - - [03/Apr/2022 01:51:51] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 01:52:39,865 [INFO]  * Restarting with stat
-2022-04-03 01:52:42,229 [WARNING]  * Debugger is active!
-2022-04-03 01:52:42,236 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 01:52:42,454 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 01:52:46,377 [INFO] Inserting <class 'backend.model.user.User'> to database
-2022-04-03 01:52:46,746 [INFO] Returning <class 'backend.model.user.User'> with id 5
-2022-04-03 01:52:46,751 [INFO] Returning <class 'backend.model.user.User'> with id 12
-2022-04-03 01:52:46,771 [INFO] 192.168.100.8 - - [03/Apr/2022 01:52:46] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 01:54:43,454 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\controller\\network_controller.py', reloading
-2022-04-03 01:54:43,602 [INFO]  * Restarting with stat
-2022-04-03 01:54:46,083 [WARNING]  * Debugger is active!
-2022-04-03 01:54:46,089 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 01:54:46,297 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 01:57:46,711 [INFO]  * Restarting with stat
-2022-04-03 01:57:49,043 [WARNING]  * Debugger is active!
-2022-04-03 01:57:49,050 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 01:57:49,260 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 01:59:18,202 [INFO] Inserting <class 'backend.model.user.User'> to database
-2022-04-03 01:59:18,442 [INFO] Record inserted with success
-2022-04-03 01:59:18,442 [INFO] Returning all <class 'backend.model.user.User'>s from database
-2022-04-03 01:59:18,522 [INFO] 192.168.100.8 - - [03/Apr/2022 01:59:18] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 02:00:59,235 [INFO]  * Restarting with stat
-2022-04-03 02:01:01,954 [WARNING]  * Debugger is active!
-2022-04-03 02:01:01,961 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:01:02,164 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:01:07,405 [INFO] Inserting <class 'backend.model.user.User'> to database
-2022-04-03 02:01:07,728 [INFO] Record inserted with success
-2022-04-03 02:01:07,729 [INFO] Returning all <class 'backend.model.user.User'>s from database
-2022-04-03 02:01:07,729 [ERROR] Textual column expression 'User' should be explicitly declared with text('User'), or use column('User') for more specificity
-2022-04-03 02:01:07,740 [INFO] 192.168.100.8 - - [03/Apr/2022 02:01:07] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 02:01:46,360 [INFO]  * Restarting with stat
-2022-04-03 02:01:48,714 [WARNING]  * Debugger is active!
-2022-04-03 02:01:48,722 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:01:48,980 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:01:51,501 [INFO] Inserting <class 'backend.model.user.User'> to database
-2022-04-03 02:01:52,436 [INFO] Record inserted with success
-2022-04-03 02:01:52,436 [INFO] Returning all Users from database
-2022-04-03 02:01:52,444 [INFO] 192.168.100.8 - - [03/Apr/2022 02:01:52] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 02:02:56,596 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
-2022-04-03 02:02:56,727 [INFO]  * Restarting with stat
-2022-04-03 02:02:59,339 [WARNING]  * Debugger is active!
-2022-04-03 02:02:59,345 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:02:59,547 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:10:24,583 [INFO]  * Restarting with stat
-2022-04-03 02:10:26,997 [WARNING]  * Debugger is active!
-2022-04-03 02:10:27,003 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:10:27,209 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:10:27,412 [INFO] Returning all Users from database
-2022-04-03 02:10:27,570 [INFO] 192.168.100.8 - - [03/Apr/2022 02:10:27] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 02:10:50,686 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
-2022-04-03 02:10:50,798 [INFO]  * Restarting with stat
-2022-04-03 02:10:53,278 [WARNING]  * Debugger is active!
-2022-04-03 02:10:53,285 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:10:53,495 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:12:08,558 [INFO]  * Restarting with stat
-2022-04-03 02:12:10,839 [WARNING]  * Debugger is active!
-2022-04-03 02:12:10,846 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:12:11,046 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:13:42,198 [INFO] Returning all Users from database
-2022-04-03 02:13:42,217 [INFO] 192.168.100.8 - - [03/Apr/2022 02:13:42] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 02:17:25,286 [INFO]  * Restarting with stat
-2022-04-03 02:17:27,610 [WARNING]  * Debugger is active!
-2022-04-03 02:17:27,617 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:17:27,823 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:17:42,713 [INFO] Returning all Users from database
-2022-04-03 02:17:42,739 [INFO] 192.168.100.8 - - [03/Apr/2022 02:17:42] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 02:19:28,303 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
-2022-04-03 02:19:28,466 [INFO]  * Restarting with stat
-2022-04-03 02:19:31,071 [WARNING]  * Debugger is active!
-2022-04-03 02:19:31,078 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:19:31,294 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:30:58,232 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\model\\user.py', reloading
-2022-04-03 02:30:58,352 [INFO]  * Restarting with stat
-2022-04-03 02:31:00,979 [WARNING]  * Debugger is active!
-2022-04-03 02:31:00,986 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:31:01,221 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:31:20,414 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
-2022-04-03 02:31:20,574 [INFO]  * Restarting with stat
-2022-04-03 02:31:23,377 [WARNING]  * Debugger is active!
-2022-04-03 02:31:23,384 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:31:23,588 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:32:45,729 [INFO]  * Restarting with stat
-2022-04-03 02:32:48,261 [WARNING]  * Debugger is active!
-2022-04-03 02:32:48,294 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:32:48,536 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:33:04,740 [INFO]  * Restarting with stat
-2022-04-03 02:33:07,272 [WARNING]  * Debugger is active!
-2022-04-03 02:33:07,278 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:33:07,487 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:33:40,559 [INFO] Inserting User to database
-2022-04-03 02:33:40,880 [INFO] Record inserted with success
-2022-04-03 02:33:40,880 [INFO] Updating User with id 1
-2022-04-03 02:33:40,885 [ERROR] Instance <User at 0x180d3fcf580> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/14/bhk3)
-2022-04-03 02:33:40,886 [INFO] Returning all Users from database
-2022-04-03 02:33:40,898 [INFO] 192.168.100.8 - - [03/Apr/2022 02:33:40] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 02:35:47,537 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\controller\\network_controller.py', reloading
-2022-04-03 02:35:47,662 [INFO]  * Restarting with stat
-2022-04-03 02:35:50,350 [WARNING]  * Debugger is active!
-2022-04-03 02:35:50,375 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:35:50,745 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:36:41,918 [INFO]  * Restarting with stat
-2022-04-03 02:36:44,926 [WARNING]  * Debugger is active!
-2022-04-03 02:36:44,949 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:36:45,204 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:36:49,063 [INFO] Updating User with id 1
-2022-04-03 02:36:49,077 [INFO] Record updated with success
-2022-04-03 02:36:49,078 [INFO] Returning all Users from database
-2022-04-03 02:36:49,088 [INFO] 192.168.100.8 - - [03/Apr/2022 02:36:49] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 02:37:25,326 [INFO]  * Restarting with stat
-2022-04-03 02:37:27,872 [WARNING]  * Debugger is active!
-2022-04-03 02:37:27,881 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:37:28,083 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:37:55,431 [INFO] Updating User with id 1
-2022-04-03 02:37:55,773 [INFO] Record updated with success
-2022-04-03 02:37:55,774 [INFO] Returning all Users from database
-2022-04-03 02:37:55,811 [INFO] 192.168.100.8 - - [03/Apr/2022 02:37:55] "[35m[1mGET /test HTTP/1.1[0m" 500 -
-2022-04-03 02:38:44,277 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
-2022-04-03 02:38:44,407 [INFO]  * Restarting with stat
-2022-04-03 02:38:47,124 [WARNING]  * Debugger is active!
-2022-04-03 02:38:47,142 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:38:47,378 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:38:57,823 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
-2022-04-03 02:38:57,944 [INFO]  * Restarting with stat
-2022-04-03 02:39:01,561 [WARNING]  * Debugger is active!
-2022-04-03 02:39:01,591 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:39:01,919 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:39:07,175 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
-2022-04-03 02:39:07,292 [INFO]  * Restarting with stat
-2022-04-03 02:39:10,240 [WARNING]  * Debugger is active!
-2022-04-03 02:39:10,298 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:39:10,669 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:39:13,433 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
-2022-04-03 02:39:13,548 [INFO]  * Restarting with stat
-2022-04-03 02:39:16,475 [WARNING]  * Debugger is active!
-2022-04-03 02:39:16,501 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:39:16,744 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:39:40,575 [INFO]  * Restarting with stat
-2022-04-03 02:39:43,916 [WARNING]  * Debugger is active!
-2022-04-03 02:39:43,923 [INFO]  * Debugger PIN: 118-962-279
-2022-04-03 02:39:44,126 [INFO]  * Running on http://192.168.100.8:4000/ (Press CTRL+C to quit)
-2022-04-03 02:40:28,061 [INFO] Deleting User with id 1
-2022-04-03 02:40:28,303 [INFO] Record deleted with success
-2022-04-03 02:40:28,303 [INFO] Returning all Users from database
-2022-04-03 02:40:28,329 [INFO] 192.168.100.8 - - [03/Apr/2022 02:40:28] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 16:55:26,832 [INFO]  * Restarting with stat
+2022-04-03 16:55:29,956 [WARNING]  * Debugger is active!
+2022-04-03 16:55:30,140 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 16:55:32,716 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 16:55:50,653 [INFO] Returning all Users from database
+2022-04-03 16:55:50,844 [INFO] 192.168.117.203 - - [03/Apr/2022 16:55:50] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 16:56:23,215 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\controller\\network_controller.py', reloading
+2022-04-03 16:56:28,386 [INFO]  * Restarting with stat
+2022-04-03 16:56:31,743 [WARNING]  * Debugger is active!
+2022-04-03 16:56:31,749 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 16:56:31,953 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 16:56:45,448 [INFO] Inserting User to database
+2022-04-03 16:56:45,826 [INFO] Record inserted with success
+2022-04-03 16:56:45,827 [INFO] Returning all Users from database
+2022-04-03 16:56:45,863 [INFO] 192.168.117.203 - - [03/Apr/2022 16:56:45] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 16:57:06,407 [INFO] Inserting User to database
+2022-04-03 16:57:07,131 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'mail1222' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (name, email, password, `role`) VALUES (%(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'name': 'n', 'email': 'mail1222', 'password': 'pass', 'role': 'role1113344'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-03 16:57:07,149 [INFO] Returning all Users from database
+2022-04-03 16:57:07,167 [INFO] 192.168.117.203 - - [03/Apr/2022 16:57:07] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 17:00:55,188 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-03 17:00:55,312 [INFO]  * Restarting with stat
+2022-04-03 17:32:20,969 [INFO]  * Restarting with stat
+2022-04-03 17:32:23,575 [WARNING]  * Debugger is active!
+2022-04-03 17:32:26,738 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:32:28,804 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:32:35,374 [INFO] 192.168.117.203 - - [03/Apr/2022 17:32:35] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 17:32:46,340 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\controller\\network_controller.py', reloading
+2022-04-03 17:32:46,880 [INFO]  * Restarting with stat
+2022-04-03 17:32:49,645 [WARNING]  * Debugger is active!
+2022-04-03 17:32:49,652 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:32:49,862 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:32:52,837 [INFO] 192.168.117.203 - - [03/Apr/2022 17:32:52] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 17:33:01,423 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\controller\\network_controller.py', reloading
+2022-04-03 17:33:01,539 [INFO]  * Restarting with stat
+2022-04-03 17:33:03,947 [WARNING]  * Debugger is active!
+2022-04-03 17:33:03,960 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:33:04,167 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:33:09,581 [INFO] 192.168.117.203 - - [03/Apr/2022 17:33:09] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 17:37:04,868 [INFO]  * Restarting with stat
+2022-04-03 17:37:07,378 [WARNING]  * Debugger is active!
+2022-04-03 17:37:07,404 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:37:07,692 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:37:14,678 [INFO] 192.168.117.203 - - [03/Apr/2022 17:37:14] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 17:37:41,046 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\validator\\user_validator.py', reloading
+2022-04-03 17:37:41,181 [INFO]  * Restarting with stat
+2022-04-03 17:37:43,792 [WARNING]  * Debugger is active!
+2022-04-03 17:37:43,806 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:37:44,089 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:37:44,296 [INFO] 192.168.117.203 - - [03/Apr/2022 17:37:44] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 17:38:24,865 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\controller\\network_controller.py', reloading
+2022-04-03 17:38:24,980 [INFO]  * Restarting with stat
+2022-04-03 17:38:27,598 [WARNING]  * Debugger is active!
+2022-04-03 17:38:27,609 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:38:27,882 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:38:30,539 [INFO] 192.168.117.203 - - [03/Apr/2022 17:38:30] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 17:40:54,760 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-03 17:40:54,894 [INFO]  * Restarting with stat
+2022-04-03 17:40:57,415 [WARNING]  * Debugger is active!
+2022-04-03 17:40:57,443 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:40:57,757 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:41:20,845 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-03 17:41:20,976 [INFO]  * Restarting with stat
+2022-04-03 17:43:18,455 [INFO]  * Restarting with stat
+2022-04-03 17:43:20,906 [WARNING]  * Debugger is active!
+2022-04-03 17:43:20,915 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:43:21,136 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:43:33,668 [INFO] 192.168.117.203 - - [03/Apr/2022 17:43:33] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 17:44:41,356 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-03 17:44:41,481 [INFO]  * Restarting with stat
+2022-04-03 17:44:44,114 [WARNING]  * Debugger is active!
+2022-04-03 17:44:44,121 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:44:44,387 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:46:12,164 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-03 17:46:12,291 [INFO]  * Restarting with stat
+2022-04-03 17:46:15,611 [WARNING]  * Debugger is active!
+2022-04-03 17:46:15,630 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:46:15,903 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:48:45,477 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\validator\\user_validator.py', reloading
+2022-04-03 17:48:45,604 [INFO]  * Restarting with stat
+2022-04-03 17:48:48,214 [WARNING]  * Debugger is active!
+2022-04-03 17:48:48,239 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:48:48,578 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:50:19,164 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-03 17:50:19,299 [INFO]  * Restarting with stat
+2022-04-03 17:58:10,384 [INFO]  * Restarting with stat
+2022-04-03 17:58:13,325 [WARNING]  * Debugger is active!
+2022-04-03 17:58:13,337 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:58:13,616 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:58:17,961 [INFO] Returning all Users from database
+2022-04-03 17:58:19,750 [INFO] 192.168.117.203 - - [03/Apr/2022 17:58:19] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 17:59:19,744 [INFO]  * Restarting with stat
+2022-04-03 17:59:22,216 [WARNING]  * Debugger is active!
+2022-04-03 17:59:22,224 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:59:22,462 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:59:25,185 [INFO] Returning all Users from database
+2022-04-03 17:59:25,423 [INFO] 192.168.117.203 - - [03/Apr/2022 17:59:25] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 17:59:50,952 [INFO]  * Restarting with stat
+2022-04-03 17:59:53,836 [WARNING]  * Debugger is active!
+2022-04-03 17:59:53,863 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 17:59:54,126 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 17:59:55,224 [INFO] Returning all Users from database
+2022-04-03 17:59:55,243 [INFO] 192.168.117.203 - - [03/Apr/2022 17:59:55] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 18:00:10,767 [INFO]  * Restarting with stat
+2022-04-03 18:00:13,360 [WARNING]  * Debugger is active!
+2022-04-03 18:00:13,366 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 18:00:13,694 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 18:00:16,123 [INFO] Returning all Users from database
+2022-04-03 18:00:16,732 [INFO] 192.168.117.203 - - [03/Apr/2022 18:00:16] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 18:00:31,721 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-03 18:00:31,873 [INFO]  * Restarting with stat
+2022-04-03 18:00:34,592 [WARNING]  * Debugger is active!
+2022-04-03 18:00:34,603 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 18:00:34,829 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 18:00:55,466 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-03 18:00:55,589 [INFO]  * Restarting with stat
+2022-04-03 18:00:58,465 [WARNING]  * Debugger is active!
+2022-04-03 18:00:58,505 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 18:00:58,910 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 18:01:36,236 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-03 18:01:36,428 [INFO]  * Restarting with stat
+2022-04-03 18:01:39,275 [WARNING]  * Debugger is active!
+2022-04-03 18:01:39,283 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 18:01:39,484 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 18:01:47,441 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-03 18:01:47,604 [INFO]  * Restarting with stat
+2022-04-03 18:02:30,541 [INFO]  * Restarting with stat
+2022-04-03 18:02:33,758 [WARNING]  * Debugger is active!
+2022-04-03 18:02:33,786 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 18:02:34,066 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 18:02:34,186 [INFO] Returning all Users from database
+2022-04-03 18:02:34,208 [INFO] 192.168.117.203 - - [03/Apr/2022 18:02:34] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 18:04:05,608 [INFO]  * Restarting with stat
+2022-04-03 18:04:08,161 [WARNING]  * Debugger is active!
+2022-04-03 18:04:08,173 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 18:04:08,387 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 18:04:12,911 [INFO] Returning all Users from database
+2022-04-03 18:04:12,929 [INFO] 192.168.117.203 - - [03/Apr/2022 18:04:12] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 18:05:50,720 [INFO]  * Restarting with stat
+2022-04-03 18:05:53,103 [WARNING]  * Debugger is active!
+2022-04-03 18:05:53,127 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 18:05:53,420 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 18:05:55,118 [INFO] Returning all Users from database
+2022-04-03 18:05:55,137 [INFO] 192.168.117.203 - - [03/Apr/2022 18:05:55] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-03 18:06:09,592 [INFO]  * Restarting with stat
+2022-04-03 18:06:11,958 [WARNING]  * Debugger is active!
+2022-04-03 18:06:11,968 [INFO]  * Debugger PIN: 118-962-279
+2022-04-03 18:06:12,187 [INFO]  * Running on http://192.168.117.203:4000/ (Press CTRL+C to quit)
+2022-04-03 18:06:20,716 [INFO] Returning all Users from database
+2022-04-03 18:06:20,736 [INFO] 192.168.117.203 - - [03/Apr/2022 18:06:20] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-04 15:29:20,345 [INFO]  * Restarting with stat
+2022-04-04 15:30:25,046 [WARNING]  * Debugger is active!
+2022-04-04 15:30:30,574 [INFO]  * Debugger PIN: 118-962-279
+2022-04-04 15:30:51,164 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-04 15:32:10,495 [INFO] Inserting User to database
+2022-04-04 15:32:27,964 [INFO] Record inserted with success
+2022-04-04 15:32:28,986 [INFO] 192.168.0.104 - - [04/Apr/2022 15:32:28] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-04 15:34:04,947 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-04 15:34:06,741 [INFO]  * Restarting with stat
+2022-04-04 15:34:47,912 [WARNING]  * Debugger is active!
+2022-04-04 15:34:48,672 [INFO]  * Debugger PIN: 118-962-279
+2022-04-04 15:34:48,983 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-04 15:35:43,609 [INFO]  * Restarting with stat
+2022-04-04 15:35:46,162 [WARNING]  * Debugger is active!
+2022-04-04 15:35:46,425 [INFO]  * Debugger PIN: 118-962-279
+2022-04-04 15:35:46,662 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-04 15:35:56,259 [INFO] Inserting User to database
+2022-04-04 15:35:57,404 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'test@gmail.com' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (name, email, password, `role`) VALUES (%(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'name': 'Test Test', 'email': 'test@gmail.com', 'password': 'aaaassdf1', 'role': 'admin'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-04 15:35:57,487 [INFO] 192.168.0.104 - - [04/Apr/2022 15:35:57] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-04 15:38:07,493 [INFO]  * Restarting with stat
+2022-04-04 15:38:09,740 [WARNING]  * Debugger is active!
+2022-04-04 15:38:09,748 [INFO]  * Debugger PIN: 118-962-279
+2022-04-04 15:38:09,958 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-04 15:38:53,434 [INFO] Inserting User to database
+2022-04-04 15:38:53,861 [INFO] Record inserted with success
+2022-04-04 15:38:54,073 [INFO] 192.168.0.104 - - [04/Apr/2022 15:38:54] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-04 15:40:03,849 [INFO]  * Restarting with stat
+2022-04-04 15:40:06,160 [WARNING]  * Debugger is active!
+2022-04-04 15:40:06,167 [INFO]  * Debugger PIN: 118-962-279
+2022-04-04 15:40:06,399 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-04 15:40:09,314 [INFO] Inserting User to database
+2022-04-04 15:40:09,630 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'test@gmail.com' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (name, email, password, `role`) VALUES (%(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'name': 'Test Test', 'email': 'test@gmail.com', 'password': 'aaaassdf1', 'role': 'admin'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-04 15:40:11,834 [INFO] 192.168.0.104 - - [04/Apr/2022 15:40:11] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-04 15:43:32,267 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
+2022-04-04 15:43:33,482 [INFO]  * Restarting with stat
+2022-04-04 15:43:35,754 [WARNING]  * Debugger is active!
+2022-04-04 15:43:35,783 [INFO]  * Debugger PIN: 118-962-279
+2022-04-04 15:43:35,995 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-04 15:43:47,126 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\repository\\database_repository.py', reloading
+2022-04-04 15:43:47,328 [INFO]  * Restarting with stat
+2022-04-04 15:43:49,747 [WARNING]  * Debugger is active!
+2022-04-04 15:43:49,754 [INFO]  * Debugger PIN: 118-962-279
+2022-04-04 15:43:49,955 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-04 15:45:29,092 [INFO]  * Restarting with stat
+2022-04-04 15:45:31,446 [WARNING]  * Debugger is active!
+2022-04-04 15:45:31,453 [INFO]  * Debugger PIN: 118-962-279
+2022-04-04 15:45:31,651 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-04 15:45:33,708 [INFO] Inserting User to database
+2022-04-04 15:45:34,483 [INFO] Record with id 7 inserted with success
+2022-04-04 15:45:34,605 [INFO] 192.168.0.104 - - [04/Apr/2022 15:45:34] "[35m[1mGET /test HTTP/1.1[0m" 500 -
+2022-04-04 16:48:22,516 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-04 16:48:43,008 [INFO]  * Restarting with stat
+2022-04-09 16:13:56,420 [INFO] Loading face encodings
+2022-04-09 16:13:58,712 [INFO]  * Restarting with stat
+2022-04-09 16:14:02,448 [INFO] Loading face encodings
+2022-04-09 16:14:03,398 [WARNING]  * Debugger is active!
+2022-04-09 16:14:05,814 [INFO]  * Debugger PIN: 125-498-089
+2022-04-09 16:14:07,627 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-09 16:16:49,562 [INFO] 192.168.0.102 - - [09/Apr/2022 16:16:49] "[33mPOST /login HTTP/1.1[0m" 404 -
+2022-04-09 16:17:57,915 [INFO] 192.168.0.102 - - [09/Apr/2022 16:17:57] "[35m[1mPOST /sign-in HTTP/1.1[0m" 500 -
+2022-04-09 16:19:20,019 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\controller\\network_controller.py', reloading
+2022-04-09 16:19:23,745 [INFO]  * Restarting with stat
+2022-04-09 16:19:53,607 [INFO] Loading face encodings
+2022-04-09 16:19:55,151 [WARNING]  * Debugger is active!
+2022-04-09 16:19:56,766 [INFO]  * Debugger PIN: 125-498-089
+2022-04-09 16:19:59,464 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-09 16:20:15,002 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\controller\\network_controller.py', reloading
+2022-04-09 16:20:15,785 [INFO]  * Restarting with stat
+2022-04-09 16:20:26,397 [INFO] Loading face encodings
+2022-04-09 16:20:26,734 [WARNING]  * Debugger is active!
+2022-04-09 16:20:26,759 [INFO]  * Debugger PIN: 125-498-089
+2022-04-09 16:20:27,043 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-09 16:20:30,206 [INFO] 192.168.0.102 - - [09/Apr/2022 16:20:30] "[35m[1mPOST /sign-in HTTP/1.1[0m" 500 -
+2022-04-09 16:35:17,203 [INFO] 192.168.0.102 - - [09/Apr/2022 16:35:17] "[35m[1mPOST /sign-in HTTP/1.1[0m" 500 -
+2022-04-09 16:35:32,916 [INFO] 192.168.0.102 - - [09/Apr/2022 16:35:32] "[35m[1mPOST /sign-in HTTP/1.1[0m" 500 -
+2022-04-09 16:38:48,624 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\controller\\network_controller.py', reloading
+2022-04-09 16:38:54,818 [INFO]  * Restarting with stat
+2022-04-09 16:39:19,285 [INFO] Loading face encodings
+2022-04-09 16:39:20,248 [WARNING]  * Debugger is active!
+2022-04-09 16:39:20,681 [INFO]  * Debugger PIN: 125-498-089
+2022-04-09 16:39:21,031 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-09 16:39:24,923 [INFO] Sign in: test
+2022-04-09 16:39:24,923 [INFO] Returning all Users from database
+2022-04-09 16:39:29,127 [INFO] 192.168.0.102 - - [09/Apr/2022 16:39:29] "[35m[1mPOST /sign-in HTTP/1.1[0m" 500 -
+2022-04-09 16:41:53,608 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\controller\\network_controller.py', reloading
+2022-04-09 16:41:56,314 [INFO]  * Restarting with stat
+2022-04-09 16:42:01,126 [INFO] Loading face encodings
+2022-04-09 16:42:01,202 [WARNING]  * Debugger is active!
+2022-04-09 16:42:01,227 [INFO]  * Debugger PIN: 125-498-089
+2022-04-09 16:42:01,465 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-09 16:42:27,953 [INFO] Sign in: test
+2022-04-09 16:42:27,953 [INFO] Returning all Users from database
+2022-04-09 16:42:28,083 [INFO] There is no user with this email/password
+2022-04-09 16:42:28,085 [INFO] 192.168.0.102 - - [09/Apr/2022 16:42:28] "POST /sign-in HTTP/1.1" 200 -
+2022-04-09 16:43:16,547 [INFO] Sign in: test
+2022-04-09 16:43:16,547 [INFO] Returning all Users from database
+2022-04-09 16:43:16,550 [INFO] There is no user with this email/password
+2022-04-09 16:43:16,551 [INFO] 192.168.0.102 - - [09/Apr/2022 16:43:16] "POST /sign-in HTTP/1.1" 200 -
+2022-04-09 16:46:11,768 [INFO] Sign in: test
+2022-04-09 16:46:11,768 [INFO] Returning all Users from database
+2022-04-09 16:46:11,773 [INFO] There is no user with this email/password
+2022-04-09 16:46:11,774 [INFO] 192.168.0.102 - - [09/Apr/2022 16:46:11] "POST /sign-in HTTP/1.1" 200 -
+2022-04-09 16:46:51,782 [INFO] Sign in: qaa
+2022-04-09 16:46:51,783 [INFO] Returning all Users from database
+2022-04-09 16:46:51,789 [INFO] There is no user with this email/password
+2022-04-09 16:46:51,791 [INFO] 192.168.0.102 - - [09/Apr/2022 16:46:51] "POST /sign-in HTTP/1.1" 200 -
+2022-04-09 16:48:17,021 [INFO] Sign in: qaa
+2022-04-09 16:48:17,021 [INFO] Returning all Users from database
+2022-04-09 16:48:17,024 [INFO] There is no user with this email/password
+2022-04-09 16:48:17,024 [INFO] 192.168.0.102 - - [09/Apr/2022 16:48:17] "POST /sign-in HTTP/1.1" 200 -
+2022-04-09 16:52:46,222 [INFO] Sign in: qaa
+2022-04-09 16:52:46,223 [INFO] Returning all Users from database
+2022-04-09 16:52:46,300 [INFO] There is no user with this email/password
+2022-04-09 16:52:46,300 [INFO] 192.168.0.102 - - [09/Apr/2022 16:52:46] "POST /sign-in HTTP/1.1" 200 -
+2022-04-09 16:53:27,999 [INFO] Sign in: qaa
+2022-04-09 16:53:28,000 [INFO] Returning all Users from database
+2022-04-09 16:53:28,006 [INFO] There is no user with this email/password
+2022-04-09 16:53:28,007 [INFO] 192.168.0.102 - - [09/Apr/2022 16:53:28] "POST /sign-in HTTP/1.1" 200 -
+2022-04-09 16:53:58,806 [INFO] Sign in: fgf
+2022-04-09 16:53:58,806 [INFO] Returning all Users from database
+2022-04-09 16:53:58,813 [INFO] There is no user with this email/password
+2022-04-09 16:53:58,815 [INFO] 192.168.0.102 - - [09/Apr/2022 16:53:58] "POST /sign-in HTTP/1.1" 200 -
+2022-04-09 16:56:59,452 [INFO] Sign in: fgf
+2022-04-09 16:56:59,453 [INFO] Returning all Users from database
+2022-04-09 16:56:59,460 [INFO] There is no user with this email/password
+2022-04-09 16:56:59,462 [INFO] 192.168.0.102 - - [09/Apr/2022 16:56:59] "POST /sign-in HTTP/1.1" 200 -
+2022-04-13 15:19:51,764 [INFO] Loading face encodings
+2022-04-13 15:20:12,064 [INFO]  * Restarting with stat
+2022-04-13 15:20:31,296 [INFO] Loading face encodings
+2022-04-13 15:20:31,345 [WARNING]  * Debugger is active!
+2022-04-13 15:23:57,966 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 15:47:49,971 [INFO] Loading face encodings
+2022-04-13 15:47:53,804 [INFO]  * Restarting with stat
+2022-04-13 15:47:59,294 [INFO] Loading face encodings
+2022-04-13 15:47:59,336 [WARNING]  * Debugger is active!
+2022-04-13 15:48:10,822 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 15:48:32,417 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 15:56:59,648 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\controller\\network_controller.py', reloading
+2022-04-13 15:57:13,209 [INFO]  * Restarting with stat
+2022-04-13 15:58:55,608 [INFO] Loading face encodings
+2022-04-13 15:59:03,746 [WARNING]  * Debugger is active!
+2022-04-13 15:59:05,307 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 15:59:05,968 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 16:13:07,857 [INFO] Sign up: test@gmail.com
+2022-04-13 16:13:07,858 [INFO] Validating user
+2022-04-13 16:13:07,858 [INFO] Inserting User to database
+2022-04-13 16:13:22,199 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'test@gmail.com' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (name, email, password, `role`) VALUES (%(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'name': 'test test', 'email': 'test@gmail.com', 'password': 'EmERC7DkYP0G7C1TKz2baq9uD.uVQySBuRx8Ky2Ubq.', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-13 16:13:22,200 [INFO] Saving new user image: /database/images/None_test_test.jpg
+2022-04-13 16:13:25,359 [INFO] 192.168.0.102 - - [13/Apr/2022 16:13:25] "[35m[1mPOST /sign-up HTTP/1.1[0m" 500 -
+2022-04-13 16:16:16,607 [INFO] Sign up: test1@gmail.com
+2022-04-13 16:16:16,607 [INFO] Validating user
+2022-04-13 16:16:16,608 [INFO] Inserting User to database
+2022-04-13 16:16:27,872 [INFO] Record with id 9 inserted with success
+2022-04-13 16:16:27,908 [INFO] Saving new user image: /database/images/9_test_test.jpg
+2022-04-13 16:16:27,921 [INFO] 192.168.0.102 - - [13/Apr/2022 16:16:27] "[35m[1mPOST /sign-up HTTP/1.1[0m" 500 -
+2022-04-13 16:16:58,128 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-13 16:17:01,581 [INFO]  * Restarting with stat
+2022-04-13 16:17:48,220 [INFO] Loading face encodings
+2022-04-13 16:17:54,827 [WARNING]  * Debugger is active!
+2022-04-13 16:17:58,970 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 16:18:00,325 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 16:19:35,323 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-13 16:19:35,447 [INFO]  * Restarting with stat
+2022-04-13 16:19:38,147 [INFO] Loading face encodings
+2022-04-13 16:19:38,188 [WARNING]  * Debugger is active!
+2022-04-13 16:19:38,196 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 16:19:38,419 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 16:23:04,638 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-13 16:23:04,767 [INFO]  * Restarting with stat
+2022-04-13 16:23:07,683 [INFO] Loading face encodings
+2022-04-13 16:23:08,038 [WARNING]  * Debugger is active!
+2022-04-13 16:23:08,048 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 16:23:08,276 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 16:27:54,940 [INFO] Sign up: test1@gmail.com
+2022-04-13 16:27:54,943 [INFO] Validating user
+2022-04-13 16:27:54,945 [INFO] Inserting User to database
+2022-04-13 16:27:58,841 [INFO] Record with id 1 inserted with success
+2022-04-13 16:27:58,841 [INFO] Saving new user image: /database/images/1_test_test.jpg
+2022-04-13 16:27:59,169 [INFO] 192.168.0.102 - - [13/Apr/2022 16:27:59] "[35m[1mPOST /sign-up HTTP/1.1[0m" 500 -
+2022-04-13 16:30:10,144 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-13 16:30:10,308 [INFO]  * Restarting with stat
+2022-04-13 16:30:12,644 [INFO] Loading face encodings
+2022-04-13 16:30:12,681 [WARNING]  * Debugger is active!
+2022-04-13 16:30:12,689 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 16:30:12,910 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 16:32:10,049 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-13 16:32:10,199 [INFO]  * Restarting with stat
+2022-04-13 16:32:13,161 [INFO] Loading face encodings
+2022-04-13 16:32:13,202 [WARNING]  * Debugger is active!
+2022-04-13 16:32:13,210 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 16:32:13,438 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 16:33:16,721 [INFO] Sign up: test1@gmail.com
+2022-04-13 16:33:16,723 [INFO] Validating user
+2022-04-13 16:33:16,725 [INFO] Inserting User to database
+2022-04-13 16:33:29,440 [INFO] Record with id 2 inserted with success
+2022-04-13 16:33:29,442 [INFO] Saving new user image: database/images/2_test_test.jpg
+2022-04-13 16:33:29,469 [INFO] 192.168.0.102 - - [13/Apr/2022 16:33:29] "[35m[1mPOST /sign-up HTTP/1.1[0m" 500 -
+2022-04-13 16:34:57,973 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-13 16:34:58,115 [INFO]  * Restarting with stat
+2022-04-13 16:35:02,298 [INFO] Loading face encodings
+2022-04-13 16:35:02,338 [WARNING]  * Debugger is active!
+2022-04-13 16:35:02,346 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 16:35:02,585 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 16:35:42,300 [INFO] Sign up: test15@gmail.com
+2022-04-13 16:35:42,301 [INFO] Validating user
+2022-04-13 16:35:42,301 [INFO] Inserting User to database
+2022-04-13 16:35:42,623 [INFO] Record with id 3 inserted with success
+2022-04-13 16:35:42,624 [INFO] Saving new user image: database/images/3_test_test.jpg
+2022-04-13 16:35:42,625 [INFO] Signed up with success
+2022-04-13 16:35:42,626 [INFO] 192.168.0.102 - - [13/Apr/2022 16:35:42] "POST /sign-up HTTP/1.1" 200 -
+2022-04-13 16:36:17,266 [INFO] Sign up: test15@gmail.com
+2022-04-13 16:36:17,266 [INFO] Validating user
+2022-04-13 16:36:17,267 [INFO] Inserting User to database
+2022-04-13 16:36:23,165 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'test15@gmail.com' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (name, email, password, `role`) VALUES (%(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'name': 'test test', 'email': 'test15@gmail.com', 'password': 'EmERC7DkYP0G7C1TKz2baq9uD.uVQySBuRx8Ky2Ubq.', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-13 16:36:23,167 [INFO] Signed up with success
+2022-04-13 16:36:23,168 [INFO] 192.168.0.102 - - [13/Apr/2022 16:36:23] "POST /sign-up HTTP/1.1" 200 -
+2022-04-13 16:37:21,058 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-13 16:37:29,653 [INFO]  * Restarting with stat
+2022-04-13 16:38:21,352 [INFO] Loading face encodings
+2022-04-13 16:38:25,796 [WARNING]  * Debugger is active!
+2022-04-13 16:38:26,070 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 16:38:26,362 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 16:39:46,386 [INFO] Sign up: test15@gmail.com
+2022-04-13 16:39:46,386 [INFO] Validating user
+2022-04-13 16:39:46,387 [INFO] Inserting User to database
+2022-04-13 16:39:48,311 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'test15@gmail.com' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (name, email, password, `role`) VALUES (%(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'name': 'test test', 'email': 'test15@gmail.com', 'password': 'EmERC7DkYP0G7C1TKz2baq9uD.uVQySBuRx8Ky2Ubq.', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-13 16:39:48,314 [INFO] 192.168.0.102 - - [13/Apr/2022 16:39:48] "POST /sign-up HTTP/1.1" 200 -
+2022-04-13 16:41:16,017 [INFO] Sign up: test15@gmail.com
+2022-04-13 16:41:16,018 [INFO] Validating user
+2022-04-13 16:41:16,018 [INFO] Inserting User to database
+2022-04-13 16:41:18,368 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'test15@gmail.com' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (name, email, password, `role`) VALUES (%(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'name': 'test test', 'email': 'test15@gmail.com', 'password': 'EmERC7DkYP0G7C1TKz2baq9uD.uVQySBuRx8Ky2Ubq.', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-13 16:41:18,372 [INFO] 192.168.0.102 - - [13/Apr/2022 16:41:18] "POST /sign-up HTTP/1.1" 200 -
+2022-04-13 16:42:38,961 [INFO] Sign up: test15@gmail.com
+2022-04-13 16:42:38,962 [INFO] Validating user
+2022-04-13 16:42:38,963 [INFO] Inserting User to database
+2022-04-13 16:42:39,277 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'test15@gmail.com' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (name, email, password, `role`) VALUES (%(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'name': 'test test', 'email': 'test15@gmail.com', 'password': 'EmERC7DkYP0G7C1TKz2baq9uD.uVQySBuRx8Ky2Ubq.', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-13 16:42:39,279 [INFO] 192.168.0.102 - - [13/Apr/2022 16:42:39] "POST /sign-up HTTP/1.1" 200 -
+2022-04-13 16:51:35,829 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-13 16:51:43,086 [INFO]  * Restarting with stat
+2022-04-13 16:53:13,068 [INFO] Loading face encodings
+2022-04-13 16:53:14,577 [INFO]  * Restarting with stat
+2022-04-13 16:53:17,055 [INFO] Loading face encodings
+2022-04-13 16:53:17,099 [WARNING]  * Debugger is active!
+2022-04-13 16:53:18,170 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 16:53:18,397 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 16:53:49,847 [INFO] Sign up: test11@gmail.com
+2022-04-13 16:53:49,848 [INFO] Validating user
+2022-04-13 16:53:49,848 [INFO] Inserting User to database
+2022-04-13 16:53:50,595 [INFO] Record with id 8 inserted with success
+2022-04-13 16:53:50,597 [INFO] Saving new user image: database/images/8_test_test.jpg
+2022-04-13 16:53:50,600 [INFO] Signed up with success
+2022-04-13 16:53:50,602 [INFO] 192.168.0.102 - - [13/Apr/2022 16:53:50] "POST /sign-up HTTP/1.1" 200 -
+2022-04-13 16:55:57,000 [INFO] Loading face encodings
+2022-04-13 16:55:57,127 [INFO]  * Restarting with stat
+2022-04-13 16:55:59,843 [INFO] Loading face encodings
+2022-04-13 16:55:59,916 [WARNING]  * Debugger is active!
+2022-04-13 16:55:59,926 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 16:56:00,142 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 16:56:48,622 [INFO] Sign up: test12@gmail.com
+2022-04-13 16:56:48,625 [INFO] Validating user
+2022-04-13 16:56:48,626 [INFO] Inserting User to database
+2022-04-13 16:56:56,133 [INFO] Record with id 9 inserted with success
+2022-04-13 16:56:56,135 [INFO] Saving new user image: database/images/9_test_test.jpg
+2022-04-13 16:57:25,745 [INFO] Signed up with success
+2022-04-13 16:57:25,747 [INFO] 192.168.0.102 - - [13/Apr/2022 16:57:25] "POST /sign-up HTTP/1.1" 200 -
+2022-04-13 16:59:39,770 [INFO] Loading face encodings
+2022-04-13 16:59:39,917 [INFO]  * Restarting with stat
+2022-04-13 16:59:42,620 [INFO] Loading face encodings
+2022-04-13 16:59:42,665 [WARNING]  * Debugger is active!
+2022-04-13 16:59:42,673 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 16:59:42,899 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-13 16:59:53,330 [INFO] Sign up: test2@gmail.com
+2022-04-13 16:59:53,331 [INFO] Validating user
+2022-04-13 16:59:53,332 [INFO] Inserting User to database
+2022-04-13 17:00:01,224 [INFO] Record with id 10 inserted with success
+2022-04-13 17:00:01,226 [INFO] Saving new user image: database/images/10_test_test.jpg
+2022-04-13 17:00:01,850 [INFO] Signed up with success
+2022-04-13 17:00:01,851 [INFO] 192.168.0.102 - - [13/Apr/2022 17:00:01] "POST /sign-up HTTP/1.1" 200 -
+2022-04-13 17:01:56,854 [INFO] Sign in: test12@gmail.com 
+2022-04-13 17:01:56,855 [INFO] Returning all Users from database
+2022-04-13 17:01:58,993 [INFO] There is no user with this email/password
+2022-04-13 17:01:58,993 [INFO] 192.168.0.102 - - [13/Apr/2022 17:01:58] "POST /sign-in HTTP/1.1" 200 -
+2022-04-13 17:02:13,027 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\face_recognition\\recognition.py', reloading
+2022-04-13 17:02:14,012 [INFO]  * Restarting with stat
+2022-04-13 17:02:17,313 [INFO] Loading face encodings
+2022-04-13 17:02:17,355 [WARNING]  * Debugger is active!
+2022-04-13 17:02:17,363 [INFO]  * Debugger PIN: 125-498-089
+2022-04-13 17:02:17,635 [INFO]  * Running on http://192.168.0.103:4000/ (Press CTRL+C to quit)
+2022-04-15 16:33:50,875 [INFO] Loading face encodings
+2022-04-15 16:34:09,976 [INFO]  * Restarting with stat
+2022-04-15 16:34:52,029 [INFO] Loading face encodings
+2022-04-15 16:34:52,073 [WARNING]  * Debugger is active!
+2022-04-15 16:34:56,316 [INFO]  * Debugger PIN: 118-962-279
+2022-04-15 16:35:12,919 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-15 16:38:26,061 [INFO] Loading face encodings
+2022-04-15 16:38:27,615 [INFO]  * Restarting with stat
+2022-04-15 16:39:09,051 [INFO] Loading face encodings
+2022-04-15 16:39:13,218 [WARNING]  * Debugger is active!
+2022-04-15 16:39:14,476 [INFO]  * Debugger PIN: 118-962-279
+2022-04-15 16:39:22,857 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-15 16:41:38,970 [INFO] Sign up: test@gmail.com
+2022-04-15 16:41:38,972 [INFO] Validating user
+2022-04-15 16:41:38,973 [INFO] Inserting User to database
+2022-04-15 16:41:40,256 [INFO] Record with id 1 inserted with success
+2022-04-15 16:41:40,258 [INFO] Saving new user image: database/images/1_test_test.jpg
+2022-04-15 16:41:44,028 [INFO] Signed up with success
+2022-04-15 16:41:44,029 [INFO] 192.168.0.101 - - [15/Apr/2022 16:41:44] "POST /sign-up HTTP/1.1" 200 -
+2022-04-15 16:43:09,360 [INFO] Sign in: test@gmail.com
+2022-04-15 16:43:09,360 [INFO] Returning all Users from database
+2022-04-15 16:43:09,375 [INFO] Signed in with success
+2022-04-15 16:43:09,375 [INFO] 192.168.0.101 - - [15/Apr/2022 16:43:09] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 16:43:28,737 [INFO] Sign in: test@gmail.co
+2022-04-15 16:43:28,737 [INFO] Returning all Users from database
+2022-04-15 16:43:28,737 [INFO] There is no user with this email/password
+2022-04-15 16:43:28,752 [INFO] 192.168.0.101 - - [15/Apr/2022 16:43:28] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 16:43:39,438 [INFO] Sign in: test@gmail.co
+2022-04-15 16:43:39,438 [INFO] Returning all Users from database
+2022-04-15 16:43:39,453 [INFO] There is no user with this email/password
+2022-04-15 16:43:39,453 [INFO] 192.168.0.101 - - [15/Apr/2022 16:43:39] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 16:44:01,601 [INFO] Sign in: test@gmail.com
+2022-04-15 16:44:01,601 [INFO] Returning all Users from database
+2022-04-15 16:44:01,601 [INFO] Signed in with success
+2022-04-15 16:44:01,601 [INFO] 192.168.0.101 - - [15/Apr/2022 16:44:01] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 16:44:08,441 [INFO] Sign in: test@gmail.com
+2022-04-15 16:44:08,441 [INFO] Returning all Users from database
+2022-04-15 16:44:08,441 [INFO] Signed in with success
+2022-04-15 16:44:08,441 [INFO] 192.168.0.101 - - [15/Apr/2022 16:44:08] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 17:33:03,406 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\validator\\user_validator.py', reloading
+2022-04-15 17:33:05,512 [INFO]  * Restarting with stat
+2022-04-15 17:33:25,757 [INFO] Loading face encodings
+2022-04-15 17:33:27,782 [WARNING]  * Debugger is active!
+2022-04-15 17:33:28,739 [INFO]  * Debugger PIN: 118-962-279
+2022-04-15 17:33:29,226 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
+2022-04-15 17:35:25,478 [INFO] Sign in: test@gmail.com
+2022-04-15 17:35:25,478 [INFO] Returning all Users from database
+2022-04-15 17:35:27,144 [INFO] Signed in with success
+2022-04-15 17:35:27,144 [INFO] 192.168.0.101 - - [15/Apr/2022 17:35:27] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 17:35:35,040 [INFO] Sign in: test@gmail.co
+2022-04-15 17:35:35,040 [INFO] Returning all Users from database
+2022-04-15 17:35:35,040 [INFO] There is no user with this email/password
+2022-04-15 17:35:35,040 [INFO] 192.168.0.101 - - [15/Apr/2022 17:35:35] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 17:35:41,994 [INFO] Sign in: test@gmail.co
+2022-04-15 17:35:41,994 [INFO] Returning all Users from database
+2022-04-15 17:35:41,994 [INFO] There is no user with this email/password
+2022-04-15 17:35:41,994 [INFO] 192.168.0.101 - - [15/Apr/2022 17:35:41] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 17:36:22,015 [INFO] Sign in: test@gmail.co
+2022-04-15 17:36:22,015 [INFO] Returning all Users from database
+2022-04-15 17:36:22,030 [INFO] There is no user with this email/password
+2022-04-15 17:36:22,030 [INFO] 192.168.0.101 - - [15/Apr/2022 17:36:22] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 17:36:26,605 [INFO] Sign in: test@gmail.co
+2022-04-15 17:36:26,605 [INFO] Returning all Users from database
+2022-04-15 17:36:26,605 [INFO] There is no user with this email/password
+2022-04-15 17:36:26,605 [INFO] 192.168.0.101 - - [15/Apr/2022 17:36:26] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 17:36:32,358 [INFO] Sign in: test@gmail.com
+2022-04-15 17:36:32,366 [INFO] Returning all Users from database
+2022-04-15 17:36:32,375 [INFO] Signed in with success
+2022-04-15 17:36:32,375 [INFO] 192.168.0.101 - - [15/Apr/2022 17:36:32] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 17:40:37,382 [INFO] Sign in: test@gmail.co
+2022-04-15 17:40:37,382 [INFO] Returning all Users from database
+2022-04-15 17:40:37,398 [INFO] There is no user with this email/password
+2022-04-15 17:40:37,398 [INFO] 192.168.0.101 - - [15/Apr/2022 17:40:37] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 17:40:45,550 [INFO] Sign in: test@gmail.co
+2022-04-15 17:40:45,550 [INFO] Returning all Users from database
+2022-04-15 17:40:45,550 [INFO] There is no user with this email/password
+2022-04-15 17:40:45,550 [INFO] 192.168.0.101 - - [15/Apr/2022 17:40:45] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 17:40:58,525 [INFO] Sign in: test@gmail.co
+2022-04-15 17:40:58,525 [INFO] Returning all Users from database
+2022-04-15 17:40:58,525 [INFO] There is no user with this email/password
+2022-04-15 17:40:58,525 [INFO] 192.168.0.101 - - [15/Apr/2022 17:40:58] "POST /sign-in HTTP/1.1" 200 -
+2022-04-15 17:41:37,780 [INFO] Sign up: test1@gmail.com
+2022-04-15 17:41:37,780 [INFO] Validating user
+2022-04-15 17:41:37,780 [INFO] Inserting User to database
+2022-04-15 17:41:38,881 [INFO] Record with id 2 inserted with success
+2022-04-15 17:41:39,085 [INFO] 192.168.0.101 - - [15/Apr/2022 17:41:39] "[35m[1mPOST /sign-up HTTP/1.1[0m" 500 -
+2022-04-15 17:42:48,486 [INFO] Sign up: test1@gmail.com
+2022-04-15 17:42:48,486 [INFO] Validating user
+2022-04-15 17:42:48,486 [INFO] Inserting User to database
+2022-04-15 17:42:50,027 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'test1@gmail.com' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (name, email, password, `role`) VALUES (%(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'name': 'test  test', 'email': 'test1@gmail.com', 'password': 'HKKWIZx1Cj0eUKGd8SZPn5quBeiwXo2aDM2ybfunkz.', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-15 17:42:50,027 [INFO] 192.168.0.101 - - [15/Apr/2022 17:42:50] "POST /sign-up HTTP/1.1" 200 -
+2022-04-15 17:43:01,163 [INFO] Sign up: test1@gmail.com
+2022-04-15 17:43:01,163 [INFO] Validating user
+2022-04-15 17:43:01,178 [INFO] Inserting User to database
+2022-04-15 17:43:01,775 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'test1@gmail.com' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (name, email, password, `role`) VALUES (%(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'name': 'test  test', 'email': 'test1@gmail.com', 'password': 'HKKWIZx1Cj0eUKGd8SZPn5quBeiwXo2aDM2ybfunkz.', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-15 17:43:01,775 [INFO] 192.168.0.101 - - [15/Apr/2022 17:43:01] "POST /sign-up HTTP/1.1" 200 -
+2022-04-15 17:44:01,384 [INFO] Sign up: test2@gmail.com
+2022-04-15 17:44:01,384 [INFO] Validating user
+2022-04-15 17:44:01,384 [INFO] Inserting User to database
+2022-04-15 17:44:02,941 [INFO] Record with id 5 inserted with success
+2022-04-15 17:44:02,941 [INFO] Saving new user image: database/images/5_test_.jpg
+2022-04-15 17:44:03,641 [INFO] Signed up with success
+2022-04-15 17:44:03,641 [INFO] 192.168.0.101 - - [15/Apr/2022 17:44:03] "POST /sign-up HTTP/1.1" 200 -
+2022-04-15 17:45:58,383 [INFO] Sign up: qaa@gmail.com
+2022-04-15 17:45:58,383 [INFO] Validating user
+2022-04-15 17:45:58,383 [INFO] Inserting User to database
+2022-04-15 17:46:00,049 [INFO] Record with id 6 inserted with success
+2022-04-15 17:46:00,049 [INFO] Saving new user image: database/images/6_teat_test.jpg
+2022-04-15 17:46:00,630 [INFO] Signed up with success
+2022-04-15 17:46:00,630 [INFO] 192.168.0.101 - - [15/Apr/2022 17:46:00] "POST /sign-up HTTP/1.1" 200 -
+2022-04-15 18:03:59,715 [INFO] Sign up: qaa@gmail.com
+2022-04-15 18:03:59,715 [INFO] Validating user
+2022-04-15 18:03:59,715 [INFO] Inserting User to database
+2022-04-15 18:03:59,988 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'qaa@gmail.com' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (name, email, password, `role`) VALUES (%(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'name': 'aaa aaa', 'email': 'qaa@gmail.com', 'password': 'EmERC7DkYP0G7C1TKz2baq9uD.uVQySBuRx8Ky2Ubq.', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-15 18:03:59,988 [INFO] 192.168.0.101 - - [15/Apr/2022 18:03:59] "POST /sign-up HTTP/1.1" 200 -
+2022-04-15 18:07:35,186 [INFO]  * Detected change in 'C:\\Users\\Adrian\\Desktop\\Documents\\Facultate\\Licenta\\AttendenceApp\\backend\\service\\service.py', reloading
+2022-04-15 18:07:36,474 [INFO]  * Restarting with stat
+2022-04-15 18:08:00,682 [INFO] Loading face encodings
+2022-04-15 18:08:01,876 [WARNING]  * Debugger is active!
+2022-04-15 18:08:02,411 [INFO]  * Debugger PIN: 118-962-279
+2022-04-15 18:08:02,945 [INFO]  * Running on http://192.168.0.104:4000/ (Press CTRL+C to quit)
