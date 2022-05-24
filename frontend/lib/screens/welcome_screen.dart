@@ -2,15 +2,26 @@ import 'dart:async';
 
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:frontend/controllers/camera_controller.dart';
+import 'package:frontend/controllers/employees_controller.dart';
 
 import '../controllers/login_controller.dart';
+import '../controllers/working_time_controller.dart';
 import 'login_screen.dart';
 
 class WelcomeScreen extends StatefulWidget {
   final CameraDescription frontCamera;
   final LoginController loginController;
+  final CamController camController;
+  final WorkingTimeController workingTimeController;
+  final EmployeesController employeesController;
   const WelcomeScreen(
-      {Key? key, required this.frontCamera, required this.loginController})
+      {Key? key,
+      required this.frontCamera,
+      required this.loginController,
+      required this.camController,
+      required this.workingTimeController,
+      required this.employeesController})
       : super(key: key);
 
   @override
@@ -26,8 +37,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           context,
           MaterialPageRoute(
               builder: (BuildContext context) => LoginScreen(
-                  frontCamera: widget.frontCamera,
-                  loginController: widget.loginController)));
+                    frontCamera: widget.frontCamera,
+                    loginController: widget.loginController,
+                    camController: widget.camController,
+                    workingTimeController: widget.workingTimeController,
+                    employeesController: widget.employeesController,
+                  )));
     });
   }
 

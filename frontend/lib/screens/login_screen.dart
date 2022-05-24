@@ -1,5 +1,8 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:frontend/controllers/camera_controller.dart';
+import 'package:frontend/controllers/employees_controller.dart';
+import 'package:frontend/controllers/working_time_controller.dart';
 import 'package:frontend/widgets/login_widgets/login_button_widget.dart';
 import 'package:frontend/widgets/login_widgets/login_text_input_widget.dart';
 import 'package:frontend/widgets/login_widgets/no_account_widget.dart';
@@ -10,8 +13,16 @@ import '../controllers/login_controller.dart';
 class LoginScreen extends StatefulWidget {
   final CameraDescription frontCamera;
   final LoginController loginController;
+  final CamController camController;
+  final WorkingTimeController workingTimeController;
+  final EmployeesController employeesController;
   const LoginScreen(
-      {Key? key, required this.frontCamera, required this.loginController})
+      {Key? key,
+      required this.frontCamera,
+      required this.loginController,
+      required this.camController,
+      required this.workingTimeController,
+      required this.employeesController})
       : super(key: key);
 
   @override
@@ -69,10 +80,15 @@ class _LoginScreenState extends State<LoginScreen> {
                       margin: 23),
                   const Spacer(),
                   LoginButtonWidget(
-                      context: context,
-                      emailController: _emailController,
-                      passwordController: _passwordController,
-                      loginController: widget.loginController),
+                    context: context,
+                    frontCamera: widget.frontCamera,
+                    emailController: _emailController,
+                    passwordController: _passwordController,
+                    loginController: widget.loginController,
+                    camController: widget.camController,
+                    workingTimeController: widget.workingTimeController,
+                    employeesController: widget.employeesController,
+                  ),
                   NoAccountWidget(
                       frontCamera: widget.frontCamera,
                       loginController: widget.loginController),

@@ -27,23 +27,28 @@
   <component name="ChangeListManager">
     <list default="true" id="be57ef98-8848-4a6d-989a-06a9d0a91f38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagram.mdj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controller/network_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controller/network_controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/face_recognition/face_encodings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/face_recognition/face_encodings.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/face_recognition/recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/face_recognition/recognition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/repository/database_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/repository/database_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/model/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/service/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/service/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/temp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/temp.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/controllers/camera_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/controllers/camera_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/controllers/login_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/controllers/login_controller.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/lib/controllers/network_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/controllers/network_controller.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/camera_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/camera_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/admin_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/admin_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/login_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/register_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/register_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/welcome_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/lib/utils/config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/utils/config.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/utils/response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/utils/response.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/utils/show_message.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/utils/show_message.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/widgets/camera_preview_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/widgets/camera_widgets/camera_preview_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/widgets/take_photo_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/widgets/camera_widgets/take_photo_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/widgets/camera_widgets/take_photo_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/widgets/camera_widgets/take_photo_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/widgets/login_widgets/login_button_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/widgets/login_widgets/login_button_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pubspec.yaml" afterDir="false" />
     </list>
@@ -59,6 +64,17 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -66,6 +82,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26AuapV6jBglHOq90T7FxDdjp4j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -76,65 +95,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../source code" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\backend\tests" />
+      <recent name="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\backend" />
       <recent name="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\FaceRecognition\database\images" />
       <recent name="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\FaceRecognition\face_recognition" />
       <recent name="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\FaceRecognition" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AttendenceApp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/utils/config.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="database_repository" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AttendenceApp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/repository" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/repository/database_repository.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.tests_main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AttendenceApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="recognition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tests_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AttendenceApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FaceRecognition/face_recognition" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\FaceRecognition\face_recognition\recognition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/tests/tests_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,37 +149,59 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for service_test.TestService.testDeleteEmployee" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="AttendenceApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FaceRecognition" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FaceRecognition/server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;service_test.TestService.testDeleteEmployee&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for service_test.TestService.testFindUserByEmail" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="AttendenceApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;service_test.TestService.testFindUserByEmail&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for service_test.TestService.testSignIn" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="AttendenceApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;service_test.TestService.testSignIn&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.config" />
-        <item itemvalue="Python.database_repository" />
-        <item itemvalue="Python.server (1)" />
-        <item itemvalue="Python.recognition" />
+        <item itemvalue="Python.tests_main" />
+        <item itemvalue="Python tests.Unittests for service_test.TestService.testDeleteEmployee" />
+        <item itemvalue="Python tests.Unittests for service_test.TestService.testSignIn" />
+        <item itemvalue="Python tests.Unittests for service_test.TestService.testFindUserByEmail" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -217,8 +212,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646878777592</updated>
+      <workItem from="1652959731084" duration="1634000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -245,66 +244,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="531" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1646904858530">
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1653429165955">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="531" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1646904858530" />
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1648994758716">
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653429165955" />
+    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1653429165955">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1648994758716" />
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1646884819760">
+    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653429165955" />
+    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1653429165955">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.816@0.0.1536.816" timestamp="1646884819760" />
-    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1648892144708">
+    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653429165955" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1653429165955">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1648892144708" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1648038917352">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1648038917352" />
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1650036120882">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1650036120882" />
-    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1650036120882">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1650036120882" />
-    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1650036120882">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1650036120882" />
-    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1650036120882">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1650036120882" />
-    <state width="1515" height="258" key="GridCell.Tab.1.bottom" timestamp="1647455099894">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1647455099894" />
-    <state width="1515" height="258" key="GridCell.Tab.1.center" timestamp="1647455099894">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1647455099894" />
-    <state width="1515" height="258" key="GridCell.Tab.1.left" timestamp="1647455099894">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1647455099894" />
-    <state width="1515" height="258" key="GridCell.Tab.1.right" timestamp="1647455099894">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1647455099894" />
-    <state x="277" y="53" key="SettingsEditor" timestamp="1648892965262">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1648892965262" />
-    <state x="431" y="137" key="search.everywhere.popup" timestamp="1649077751950">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="431" y="137" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1649077751950" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653429165955" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

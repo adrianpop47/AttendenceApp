@@ -1,0 +1,331 @@
+2022-05-25 00:23:49,269 [INFO] Loading face encodings
+2022-05-25 00:30:33,620 [INFO] Loading face encodings
+2022-05-25 00:31:18,884 [INFO] Loading face encodings
+2022-05-25 00:35:17,635 [INFO] Loading face encodings
+2022-05-25 00:35:17,667 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:35:18,809 [INFO] Inserting User to database
+2022-05-25 00:35:18,955 [INFO] Record with id 4316 inserted with success
+2022-05-25 00:35:18,957 [INFO] Sign in: email
+2022-05-25 00:35:18,957 [INFO] Finding user with the email email
+2022-05-25 00:35:18,957 [INFO] Returning all Users from database
+2022-05-25 00:35:18,962 [INFO] Signed in with success
+2022-05-25 00:35:18,962 [INFO] Deleting User with id 4316
+2022-05-25 00:35:19,153 [INFO] Record deleted with success
+2022-05-25 00:35:47,834 [INFO] Loading face encodings
+2022-05-25 00:35:47,866 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:35:47,878 [INFO] Inserting User to database
+2022-05-25 00:35:48,116 [INFO] Record with id 50656 inserted with success
+2022-05-25 00:35:48,117 [INFO] Sign in: email
+2022-05-25 00:35:48,117 [INFO] Finding user with the email email
+2022-05-25 00:35:48,117 [INFO] Returning all Users from database
+2022-05-25 00:35:48,120 [INFO] Signed in with success
+2022-05-25 00:35:48,120 [INFO] Deleting User with id 50656
+2022-05-25 00:35:48,247 [INFO] Record deleted with success
+2022-05-25 00:39:45,888 [INFO] Loading face encodings
+2022-05-25 00:39:45,919 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:39:45,987 [INFO] Inserting User to database
+2022-05-25 00:39:46,176 [INFO] Record with id 44921 inserted with success
+2022-05-25 00:39:46,178 [INFO] Sign in: email
+2022-05-25 00:39:46,178 [INFO] Finding user with the email email
+2022-05-25 00:39:46,178 [INFO] Returning all Users from database
+2022-05-25 00:39:46,182 [INFO] Signed in with success
+2022-05-25 00:39:46,182 [INFO] Deleting User with id 44921
+2022-05-25 00:39:46,341 [INFO] Record deleted with success
+2022-05-25 00:39:46,341 [INFO] Inserting User to database
+2022-05-25 00:39:46,578 [INFO] Record with id 44921 inserted with success
+2022-05-25 00:39:46,580 [INFO] Sign in: wrong_email
+2022-05-25 00:39:46,581 [INFO] Finding user with the email wrong_email
+2022-05-25 00:39:46,581 [INFO] Returning all Users from database
+2022-05-25 00:39:46,586 [INFO] There is no user with this email/password
+2022-05-25 00:39:46,587 [INFO] Deleting User with id 44921
+2022-05-25 00:39:46,724 [INFO] Record deleted with success
+2022-05-25 00:41:32,797 [INFO] Loading face encodings
+2022-05-25 00:41:32,832 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:41:32,845 [INFO] Returning all Users from database
+2022-05-25 00:41:32,847 [INFO] Inserting User to database
+2022-05-25 00:41:32,940 [INFO] Record with id 54630 inserted with success
+2022-05-25 00:41:32,941 [INFO] Returning all Users from database
+2022-05-25 00:41:52,927 [INFO] Loading face encodings
+2022-05-25 00:41:52,960 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:41:52,973 [INFO] Returning all Users from database
+2022-05-25 00:41:52,975 [INFO] Inserting User to database
+2022-05-25 00:41:53,056 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'email' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (id, name, email, password, `role`) VALUES (%(id)s, %(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'id': 75565, 'name': 'name', 'email': 'email', 'password': 'password', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-05-25 00:41:53,057 [INFO] Returning all Users from database
+2022-05-25 00:43:06,616 [INFO] Loading face encodings
+2022-05-25 00:43:06,647 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:43:06,748 [INFO] Inserting User to database
+2022-05-25 00:43:06,911 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'email' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (id, name, email, password, `role`) VALUES (%(id)s, %(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'id': 47068, 'name': 'name', 'email': 'email', 'password': 'password', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-05-25 00:43:06,912 [INFO] Finding user with the email email
+2022-05-25 00:43:06,913 [INFO] Returning all Users from database
+2022-05-25 00:43:43,989 [INFO] Loading face encodings
+2022-05-25 00:43:44,027 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:43:44,042 [INFO] Inserting User to database
+2022-05-25 00:43:44,089 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'email' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (id, name, email, password, `role`) VALUES (%(id)s, %(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'id': 62658, 'name': 'name', 'email': 'email', 'password': 'password', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-05-25 00:43:44,091 [INFO] Finding user with the email email
+2022-05-25 00:43:44,091 [INFO] Returning all Users from database
+2022-05-25 00:44:40,922 [INFO] Loading face encodings
+2022-05-25 00:44:40,959 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:44:40,974 [INFO] Inserting User to database
+2022-05-25 00:44:41,064 [INFO] Record with id 70154 inserted with success
+2022-05-25 00:44:41,065 [INFO] Finding user with the email email
+2022-05-25 00:44:41,065 [INFO] Returning all Users from database
+2022-05-25 00:44:41,069 [INFO] Deleting User with id 70154
+2022-05-25 00:44:41,217 [INFO] Record deleted with success
+2022-05-25 00:44:47,782 [INFO] Loading face encodings
+2022-05-25 00:44:47,814 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:44:47,935 [INFO] Inserting User to database
+2022-05-25 00:44:48,029 [INFO] Record with id 99753 inserted with success
+2022-05-25 00:44:48,030 [INFO] Finding user with the email email
+2022-05-25 00:44:48,031 [INFO] Returning all Users from database
+2022-05-25 00:44:48,036 [INFO] Deleting User with id 99753
+2022-05-25 00:44:48,120 [INFO] Record deleted with success
+2022-05-25 00:47:24,110 [INFO] Loading face encodings
+2022-05-25 00:47:24,111 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:24,235 [INFO] Inserting User to database
+2022-05-25 00:47:24,340 [INFO] Record with id 10434 inserted with success
+2022-05-25 00:47:24,340 [INFO] Returning User with id 10434 from database
+2022-05-25 00:47:24,342 [INFO] Returning User with id 10434 from database
+2022-05-25 00:47:24,343 [INFO] Returning User with id 10434 from database
+2022-05-25 00:47:24,344 [INFO] Returning User with id 10434 from database
+2022-05-25 00:47:24,346 [INFO] Deleting User with id 10434
+2022-05-25 00:47:24,493 [INFO] Record deleted with success
+2022-05-25 00:47:24,493 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:24,497 [INFO] Inserting User to database
+2022-05-25 00:47:24,965 [INFO] Record with id 79355 inserted with success
+2022-05-25 00:47:24,966 [INFO] Returning all Users from database
+2022-05-25 00:47:24,971 [INFO] Deleting User with id 79355
+2022-05-25 00:47:25,876 [INFO] Record deleted with success
+2022-05-25 00:47:25,876 [INFO] Returning all Users from database
+2022-05-25 00:47:25,877 [INFO] Returning all Users from database
+2022-05-25 00:47:25,878 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:25,880 [INFO] Inserting User to database
+2022-05-25 00:47:26,188 [INFO] Record with id 68085 inserted with success
+2022-05-25 00:47:26,189 [INFO] Returning all Users from database
+2022-05-25 00:47:26,192 [INFO] Deleting User with id 68085
+2022-05-25 00:47:26,686 [INFO] Record deleted with success
+2022-05-25 00:47:26,688 [INFO] Validating user
+2022-05-25 00:47:26,689 [INFO] Validating user
+2022-05-25 00:47:26,689 [INFO] Validating user
+2022-05-25 00:47:26,690 [INFO] Validating user
+2022-05-25 00:47:26,690 [INFO] Validating user
+2022-05-25 00:47:26,691 [INFO] Validating user
+2022-05-25 00:47:26,692 [INFO] Validating user
+2022-05-25 00:47:26,692 [INFO] Validating user
+2022-05-25 00:47:26,694 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:27,202 [INFO] Returning all Users from database
+2022-05-25 00:47:27,208 [INFO] Inserting User to database
+2022-05-25 00:47:27,310 [INFO] Record with id 58344 inserted with success
+2022-05-25 00:47:27,310 [INFO] Returning all Users from database
+2022-05-25 00:47:27,312 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:27,313 [INFO] Inserting User to database
+2022-05-25 00:47:27,392 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'email' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (id, name, email, password, `role`) VALUES (%(id)s, %(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'id': 20365, 'name': 'name', 'email': 'email', 'password': 'password', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-05-25 00:47:27,393 [INFO] Finding user with the email email
+2022-05-25 00:47:27,393 [INFO] Returning all Users from database
+2022-05-25 00:47:27,396 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:27,399 [INFO] Inserting User to database
+2022-05-25 00:47:27,431 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'email' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (id, name, email, password, `role`) VALUES (%(id)s, %(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'id': 87431, 'name': 'name', 'email': 'email', 'password': 'password', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-05-25 00:47:27,432 [INFO] Sign in: email
+2022-05-25 00:47:27,432 [INFO] Finding user with the email email
+2022-05-25 00:47:27,432 [INFO] Returning all Users from database
+2022-05-25 00:47:27,434 [INFO] Signed in with success
+2022-05-25 00:47:27,434 [INFO] Deleting User with id 87431
+2022-05-25 00:47:27,435 [ERROR] Class 'builtins.NoneType' is not mapped
+2022-05-25 00:47:27,436 [INFO] Inserting User to database
+2022-05-25 00:47:27,470 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'email' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (id, name, email, password, `role`) VALUES (%(id)s, %(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'id': 87431, 'name': 'name', 'email': 'email', 'password': 'password', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-05-25 00:47:27,471 [INFO] Sign in: wrong_email
+2022-05-25 00:47:27,471 [INFO] Finding user with the email wrong_email
+2022-05-25 00:47:27,471 [INFO] Returning all Users from database
+2022-05-25 00:47:27,473 [INFO] There is no user with this email/password
+2022-05-25 00:47:27,474 [INFO] Deleting User with id 87431
+2022-05-25 00:47:27,475 [ERROR] Class 'builtins.NoneType' is not mapped
+2022-05-25 00:47:55,412 [INFO] Loading face encodings
+2022-05-25 00:47:55,413 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:55,452 [INFO] Inserting User to database
+2022-05-25 00:47:55,555 [INFO] Record with id 21729 inserted with success
+2022-05-25 00:47:55,556 [INFO] Returning User with id 21729 from database
+2022-05-25 00:47:55,558 [INFO] Returning User with id 21729 from database
+2022-05-25 00:47:55,560 [INFO] Returning User with id 21729 from database
+2022-05-25 00:47:55,562 [INFO] Returning User with id 21729 from database
+2022-05-25 00:47:55,564 [INFO] Deleting User with id 21729
+2022-05-25 00:47:55,665 [INFO] Record deleted with success
+2022-05-25 00:47:55,666 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:55,668 [INFO] Inserting User to database
+2022-05-25 00:47:55,835 [INFO] Record with id 25945 inserted with success
+2022-05-25 00:47:55,836 [INFO] Returning all Users from database
+2022-05-25 00:47:55,840 [INFO] Deleting User with id 25945
+2022-05-25 00:47:56,028 [INFO] Record deleted with success
+2022-05-25 00:47:56,028 [INFO] Returning all Users from database
+2022-05-25 00:47:56,031 [INFO] Returning all Users from database
+2022-05-25 00:47:56,034 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:56,037 [INFO] Inserting User to database
+2022-05-25 00:47:56,358 [INFO] Record with id 34231 inserted with success
+2022-05-25 00:47:56,359 [INFO] Returning all Users from database
+2022-05-25 00:47:56,360 [INFO] Deleting User with id 34231
+2022-05-25 00:47:56,478 [INFO] Record deleted with success
+2022-05-25 00:47:56,478 [INFO] Validating user
+2022-05-25 00:47:56,478 [INFO] Validating user
+2022-05-25 00:47:56,479 [INFO] Validating user
+2022-05-25 00:47:56,479 [INFO] Validating user
+2022-05-25 00:47:56,479 [INFO] Validating user
+2022-05-25 00:47:56,479 [INFO] Validating user
+2022-05-25 00:47:56,479 [INFO] Validating user
+2022-05-25 00:47:56,479 [INFO] Validating user
+2022-05-25 00:47:56,479 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:56,881 [INFO] Returning all Users from database
+2022-05-25 00:47:56,886 [INFO] Inserting User to database
+2022-05-25 00:47:56,990 [INFO] Record with id 99578 inserted with success
+2022-05-25 00:47:56,991 [INFO] Returning all Users from database
+2022-05-25 00:47:57,078 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:57,080 [INFO] Inserting User to database
+2022-05-25 00:47:57,276 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'email' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (id, name, email, password, `role`) VALUES (%(id)s, %(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'id': 10138, 'name': 'name', 'email': 'email', 'password': 'password', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-05-25 00:47:57,277 [INFO] Finding user with the email email
+2022-05-25 00:47:57,278 [INFO] Returning all Users from database
+2022-05-25 00:47:57,282 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:47:57,285 [INFO] Inserting User to database
+2022-05-25 00:47:57,331 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'email' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (id, name, email, password, `role`) VALUES (%(id)s, %(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'id': 87901, 'name': 'name', 'email': 'email', 'password': 'password', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-05-25 00:47:57,332 [INFO] Sign in: email
+2022-05-25 00:47:57,332 [INFO] Finding user with the email email
+2022-05-25 00:47:57,332 [INFO] Returning all Users from database
+2022-05-25 00:47:57,334 [INFO] Signed in with success
+2022-05-25 00:47:57,334 [INFO] Deleting User with id 87901
+2022-05-25 00:47:57,335 [ERROR] Class 'builtins.NoneType' is not mapped
+2022-05-25 00:47:57,336 [INFO] Inserting User to database
+2022-05-25 00:47:57,443 [ERROR] (pymysql.err.IntegrityError) (1062, "Duplicate entry 'email' for key 'user.email_UNIQUE'")
+[SQL: INSERT INTO user (id, name, email, password, `role`) VALUES (%(id)s, %(name)s, %(email)s, %(password)s, %(role)s)]
+[parameters: {'id': 87901, 'name': 'name', 'email': 'email', 'password': 'password', 'role': 'USER'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-05-25 00:47:57,443 [INFO] Sign in: wrong_email
+2022-05-25 00:47:57,444 [INFO] Finding user with the email wrong_email
+2022-05-25 00:47:57,444 [INFO] Returning all Users from database
+2022-05-25 00:47:57,447 [INFO] There is no user with this email/password
+2022-05-25 00:47:57,447 [INFO] Deleting User with id 87901
+2022-05-25 00:47:57,449 [ERROR] Class 'builtins.NoneType' is not mapped
+2022-05-25 00:51:16,204 [INFO] Loading face encodings
+2022-05-25 00:51:16,236 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:51:16,273 [INFO] Inserting User to database
+2022-05-25 00:51:16,400 [INFO] Record with id 51942 inserted with success
+2022-05-25 00:51:16,401 [INFO] Sign in: email
+2022-05-25 00:51:16,401 [INFO] Finding user with the email email
+2022-05-25 00:51:16,401 [INFO] Returning all Users from database
+2022-05-25 00:51:16,405 [INFO] Signed in with success
+2022-05-25 00:51:16,405 [INFO] Deleting User with id 51942
+2022-05-25 00:51:16,642 [INFO] Record deleted with success
+2022-05-25 00:51:16,642 [INFO] Inserting User to database
+2022-05-25 00:51:16,643 [ERROR] Could not refresh instance '<User at 0x181e0476520>'
+2022-05-25 00:51:16,643 [INFO] Sign in: wrong_email
+2022-05-25 00:51:16,644 [INFO] Finding user with the email wrong_email
+2022-05-25 00:51:16,644 [INFO] Returning all Users from database
+2022-05-25 00:51:16,645 [INFO] There is no user with this email/password
+2022-05-25 00:51:16,645 [INFO] Deleting User with id 51942
+2022-05-25 00:51:16,646 [ERROR] Class 'builtins.NoneType' is not mapped
+2022-05-25 00:51:26,711 [INFO] Loading face encodings
+2022-05-25 00:51:26,744 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:51:26,757 [INFO] Returning all Users from database
+2022-05-25 00:51:26,759 [INFO] Inserting User to database
+2022-05-25 00:51:26,910 [INFO] Record with id 90282 inserted with success
+2022-05-25 00:51:26,912 [INFO] Returning all Users from database
+2022-05-25 00:52:33,468 [INFO] Loading face encodings
+2022-05-25 00:52:33,504 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:52:33,517 [INFO] Returning all Users from database
+2022-05-25 00:52:33,519 [INFO] Inserting User to database
+2022-05-25 00:52:34,820 [INFO] Record with id 67016 inserted with success
+2022-05-25 00:52:34,822 [INFO] Delete employee with id <built-in function id>
+2022-05-25 00:52:34,822 [INFO] Deleting User with id 67016
+2022-05-25 00:52:35,216 [INFO] Record deleted with success
+2022-05-25 00:52:35,217 [INFO] Delete attendances of user with id <built-in function id>
+2022-05-25 00:52:35,217 [INFO] Getting the attendances of user with id 67016
+2022-05-25 00:52:35,217 [INFO] Returning all Attendances from database
+2022-05-25 00:52:35,573 [INFO] []
+2022-05-25 00:52:35,574 [INFO] Returning all Users from database
+2022-05-25 00:52:48,070 [INFO] Loading face encodings
+2022-05-25 00:52:48,071 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:52:48,084 [INFO] Inserting User to database
+2022-05-25 00:52:48,330 [INFO] Record with id 69760 inserted with success
+2022-05-25 00:52:48,332 [INFO] Returning User with id 69760 from database
+2022-05-25 00:52:48,337 [INFO] Returning User with id 69760 from database
+2022-05-25 00:52:48,341 [INFO] Returning User with id 69760 from database
+2022-05-25 00:52:48,346 [INFO] Returning User with id 69760 from database
+2022-05-25 00:52:48,350 [INFO] Deleting User with id 69760
+2022-05-25 00:52:48,652 [INFO] Record deleted with success
+2022-05-25 00:52:48,653 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:52:48,658 [INFO] Inserting User to database
+2022-05-25 00:52:48,816 [INFO] Record with id 61823 inserted with success
+2022-05-25 00:52:48,818 [INFO] Returning all Users from database
+2022-05-25 00:52:48,824 [INFO] Deleting User with id 61823
+2022-05-25 00:52:49,017 [INFO] Record deleted with success
+2022-05-25 00:52:49,017 [INFO] Returning all Users from database
+2022-05-25 00:52:49,046 [INFO] Returning all Users from database
+2022-05-25 00:52:49,049 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:52:49,051 [INFO] Inserting User to database
+2022-05-25 00:52:49,273 [INFO] Record with id 4306 inserted with success
+2022-05-25 00:52:49,275 [INFO] Returning all Users from database
+2022-05-25 00:52:49,280 [INFO] Deleting User with id 4306
+2022-05-25 00:52:49,445 [INFO] Record deleted with success
+2022-05-25 00:52:49,446 [INFO] Validating user
+2022-05-25 00:52:49,447 [INFO] Validating user
+2022-05-25 00:52:49,447 [INFO] Validating user
+2022-05-25 00:52:49,448 [INFO] Validating user
+2022-05-25 00:52:49,448 [INFO] Validating user
+2022-05-25 00:52:49,449 [INFO] Validating user
+2022-05-25 00:52:49,449 [INFO] Validating user
+2022-05-25 00:52:49,449 [INFO] Validating user
+2022-05-25 00:52:49,450 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:52:49,486 [INFO] Returning all Users from database
+2022-05-25 00:52:49,489 [INFO] Inserting User to database
+2022-05-25 00:52:49,673 [INFO] Record with id 89393 inserted with success
+2022-05-25 00:52:49,674 [INFO] Delete employee with id <built-in function id>
+2022-05-25 00:52:49,675 [INFO] Deleting User with id 89393
+2022-05-25 00:52:49,856 [INFO] Record deleted with success
+2022-05-25 00:52:49,856 [INFO] Delete attendances of user with id <built-in function id>
+2022-05-25 00:52:49,856 [INFO] Getting the attendances of user with id 89393
+2022-05-25 00:52:49,856 [INFO] Returning all Attendances from database
+2022-05-25 00:52:49,967 [INFO] []
+2022-05-25 00:52:49,968 [INFO] Returning all Users from database
+2022-05-25 00:52:49,970 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:52:50,036 [INFO] Inserting User to database
+2022-05-25 00:52:50,163 [INFO] Record with id 14444 inserted with success
+2022-05-25 00:52:50,164 [INFO] Finding user with the email email
+2022-05-25 00:52:50,164 [INFO] Returning all Users from database
+2022-05-25 00:52:50,166 [INFO] Deleting User with id 14444
+2022-05-25 00:52:50,439 [INFO] Record deleted with success
+2022-05-25 00:52:50,440 [INFO] Returning User with id <built-in function id> from database
+2022-05-25 00:52:50,446 [INFO] Inserting User to database
+2022-05-25 00:52:50,699 [INFO] Record with id 18491 inserted with success
+2022-05-25 00:52:50,700 [INFO] Sign in: email
+2022-05-25 00:52:50,700 [INFO] Finding user with the email email
+2022-05-25 00:52:50,700 [INFO] Returning all Users from database
+2022-05-25 00:52:50,703 [INFO] Signed in with success
+2022-05-25 00:52:50,703 [INFO] Deleting User with id 18491
+2022-05-25 00:52:50,785 [INFO] Record deleted with success
+2022-05-25 00:52:50,785 [INFO] Inserting User to database
+2022-05-25 00:52:50,786 [ERROR] Could not refresh instance '<User at 0x2625d4cd0a0>'
+2022-05-25 00:52:50,787 [INFO] Sign in: wrong_email
+2022-05-25 00:52:50,787 [INFO] Finding user with the email wrong_email
+2022-05-25 00:52:50,787 [INFO] Returning all Users from database
+2022-05-25 00:52:50,788 [INFO] There is no user with this email/password
+2022-05-25 00:52:50,788 [INFO] Deleting User with id 18491
+2022-05-25 00:52:50,789 [ERROR] Class 'builtins.NoneType' is not mapped

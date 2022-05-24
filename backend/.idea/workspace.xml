@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be57ef98-8848-4a6d-989a-06a9d0a91f38" name="Default Changelist" comment="" />
+    <list default="true" id="be57ef98-8848-4a6d-989a-06a9d0a91f38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diagram.mdj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/network_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/network_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognition/recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/temp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validator/user_validator.py" beforeDir="false" afterPath="$PROJECT_DIR$/validator/user_validator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/controllers/camera_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/controllers/camera_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/controllers/login_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/controllers/login_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/controllers/network_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/controllers/network_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/screens/admin_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/screens/admin_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/screens/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/screens/login_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/screens/register_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/screens/register_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/screens/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/screens/welcome_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/utils/config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/utils/config.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/widgets/camera_widgets/take_photo_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/widgets/camera_widgets/take_photo_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/widgets/login_widgets/login_button_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/widgets/login_widgets/login_button_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,16 +41,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="26AuapV6jBglHOq90T7FxDdjp4j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="exceleditor.install" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Adrian/Desktop/Documents/Facultate/Licenta/AttendenceApp/backend&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
   <component name="RunManager" selected="Python.client">
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AttendenceApp" />
@@ -37,6 +75,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -58,6 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -74,6 +114,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -84,50 +125,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646878777592</updated>
+      <workItem from="1652961440451" duration="1899000" />
+      <workItem from="1652967813008" duration="5731000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="531" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1646904858530">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="531" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1646904858530" />
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1646884819760">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.816@0.0.1536.816" timestamp="1646884819760" />
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1646909205721">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1646909205721" />
-    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1646909205720">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1646909205720" />
-    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1646909205720">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1646909205720" />
-    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1646909205720">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1646909205720" />
-    <state width="1515" height="258" key="GridCell.Tab.1.bottom" timestamp="1646908484143">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1646908484143" />
-    <state width="1515" height="258" key="GridCell.Tab.1.center" timestamp="1646908484143">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1646908484143" />
-    <state width="1515" height="258" key="GridCell.Tab.1.left" timestamp="1646908484142">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1646908484142" />
-    <state width="1515" height="258" key="GridCell.Tab.1.right" timestamp="1646908484143">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1646908484143" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

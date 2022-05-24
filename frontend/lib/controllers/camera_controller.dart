@@ -11,13 +11,17 @@ class CamController {
 
   CamController(this._networkController);
 
-  void checkIn(BuildContext context, XFile capturedImage) async {
+  void checkIn(
+      BuildContext context, XFile capturedImage, Function callback) async {
     Response response = await _networkController.checkIn(capturedImage);
+    callback();
     handleAttendanceMessage(context, CHECK_IN, response);
   }
 
-  void checkOut(BuildContext context, XFile capturedImage) async {
+  void checkOut(
+      BuildContext context, XFile capturedImage, Function callback) async {
     Response response = await _networkController.checkOut(capturedImage);
+    callback();
     handleAttendanceMessage(context, CHECK_OUT, response);
   }
 }

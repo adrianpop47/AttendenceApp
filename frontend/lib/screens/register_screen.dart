@@ -3,6 +3,7 @@ import 'dart:developer';
 import 'package:camera/camera.dart';
 import "package:flutter/material.dart";
 import 'package:frontend/widgets/login_widgets/take_face_photo_widget.dart';
+import 'package:frontend/widgets/navigation_bar_widget.dart';
 
 import '../controllers/login_controller.dart';
 import '../utils/show_message.dart';
@@ -38,13 +39,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
       backgroundColor: Theme.of(context).primaryColor,
       body: Column(
         children: [
-          Container(
-            height: MediaQuery.of(context).size.height * 0.03,
-            decoration: BoxDecoration(
-                color: Theme.of(context).backgroundColor,
-                borderRadius:
-                    const BorderRadius.only(bottomLeft: Radius.circular(100))),
-          ),
+          const NavigationBarWidget(),
           Container(
             margin: const EdgeInsets.only(left: 20, right: 20, top: 10),
             height: MediaQuery.of(context).size.height * 0.85,

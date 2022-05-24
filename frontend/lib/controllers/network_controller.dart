@@ -61,4 +61,28 @@ class NetworkController {
     final jsonResponse = await jsonDecode(httpResponse.body);
     return Response(jsonResponse["type"], jsonResponse["data"]);
   }
+
+  getAttendance(int userId) async {
+    final request = http.MultipartRequest("GET", Uri.parse("$_url/attendance"));
+    request.fields['id'] = userId.toString();
+    http.Response httpResponse =
+        await http.Response.fromStream(await request.send());
+    final jsonResponse = await jsonDecode(httpResponse.body);
+    return jsonResponse["data"];
+  }
+
+  getUsers() async {
+    final request = http.MultipartRequest("GET", Uri.parse("$_url/users"));
+    http.Response httpResponse =
+        await http.Response.fromStream(await request.send());
+    final jsonResponse = await jsonDecode(httpResponse.body);
+    return jsonResponse["data"];
+  }
+
+  deleteEmployee(int id) async {
+    await http.post(
+      Uri.parse("$_url/delete-employee"),
+      body: {'id': id.toString()},
+    );
+  }
 }

@@ -37,6 +37,8 @@ dependencies:
   move_to_background: ^1.0.2
   crypt: ^4.2.1
   email_validator: ^2.0.1
+  google_fonts: ^2.3.1
+  dcdg: ^4.0.1
 
 
 dev_dependencies:

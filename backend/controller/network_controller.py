@@ -1,9 +1,6 @@
 from flask import Flask, request, jsonify
 
-from backend.model.user import User
-from backend.repository.database_repository import DatabaseRepository
 from backend.service.service import Service
-from backend.utils.config import DATABASE_CONNECTION_STRING
 
 
 class NetworkController:
@@ -60,9 +57,30 @@ class NetworkController:
                     "data": str(response.data)
                 })
 
-        @self.app.route('/test', methods=['GET'])
-        def test():
+        @self.app.route('/attendance', methods=['GET'])
+        def attendance():
             if request.method == "GET":
-                self.service.sign_up("Test Test", "test@gmail.com", "aaaassdf1", "admin", "temp.jpg")
+                id_ = int(request.form['id'])
+                response = self.service.get_user_attendance(id_)
+                return jsonify({
+                    "data": response
+                })
+
+        @self.app.route('/users', methods=['GET'])
+        def users():
+            if request.method == "GET":
+                response = self.service.get_all_non_admin_users()
+                return jsonify({
+                    "data": response
+                })
+
+        @self.app.route('/delete-employee', methods=['POST'])
+        def delete_employee():
+            if request.method == "POST":
+                id_ = int(request.form['id'])
+                self.service.delete_employee(id_)
+            return None
+
 
         self.app.run(debug=True, host=self.ip, port=self.port)
+    

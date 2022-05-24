@@ -15,8 +15,7 @@ class Recognition:
         self.persons = []
         self.encodings = []
         self.images_path = 'database/images/'
-        self.encodings_file = "face_recognition/face_encodings.txt"
-        #self.write_data()
+        self.encodings_file = ""
         self.load_data()
 
     def write_data(self):
@@ -41,6 +40,10 @@ class Recognition:
         f.close()
 
     def load_data(self):
+        if os.path.exists("face_recognition/face_encodings.txt"):
+            self.encodings_file = "face_recognition/face_encodings.txt"
+        else:
+            self.encodings_file = "../face_recognition/face_encodings.txt"
         logging.info("Loading face encodings")
         f = open(self.encodings_file, "r")
         lines = f.read().strip().split(';')
