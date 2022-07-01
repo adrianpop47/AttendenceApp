@@ -27,30 +27,16 @@
   <component name="ChangeListManager">
     <list default="true" id="be57ef98-8848-4a6d-989a-06a9d0a91f38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diagram.mdj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logo.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controller/network_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controller/network_controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/face_recognition/recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/face_recognition/recognition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/model/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/service/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/service/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/face_recognition/face_encodings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/face_recognition/face_encodings.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/temp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/temp.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/controllers/camera_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/controllers/camera_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/controllers/login_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/controllers/login_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/android/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/lib/controllers/network_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/controllers/network_controller.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/admin_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/admin_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/login_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/register_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/register_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/welcome_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/my_employees_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/my_employees_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lib/screens/my_working_time_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/screens/my_working_time_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/lib/utils/config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/utils/config.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/widgets/camera_widgets/take_photo_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/widgets/camera_widgets/take_photo_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/lib/widgets/login_widgets/login_button_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/widgets/login_widgets/login_button_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,14 +85,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\backend\database\images" />
       <recent name="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\backend\tests" />
       <recent name="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\backend" />
       <recent name="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\FaceRecognition\database\images" />
       <recent name="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\FaceRecognition\face_recognition" />
-      <recent name="C:\Users\Adrian\Desktop\Documents\Facultate\Licenta\AttendenceApp\FaceRecognition" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tests_main">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AttendenceApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.tests_main" />
         <item itemvalue="Python tests.Unittests for service_test.TestService.testDeleteEmployee" />
         <item itemvalue="Python tests.Unittests for service_test.TestService.testSignIn" />
         <item itemvalue="Python tests.Unittests for service_test.TestService.testFindUserByEmail" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -244,22 +230,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1653429165955">
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1656662180784">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653429165955" />
-    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1653429165955">
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1656662180784" />
+    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1656662180784">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653429165955" />
-    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1653429165955">
+    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1656662180784" />
+    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1656662180784">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653429165955" />
-    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1653429165955">
+    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1656662180784" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1656662180784">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653429165955" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1656662180784" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

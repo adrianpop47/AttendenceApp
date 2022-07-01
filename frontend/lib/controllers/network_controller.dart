@@ -8,7 +8,11 @@ import 'package:frontend/utils/response.dart';
 import 'package:http/http.dart' as http;
 
 class NetworkController {
-  final String _url = cUrl;
+  late String _url;
+  final String _host;
+  NetworkController(this._host) {
+    _url = "http://$_host:$cPort";
+  }
 
   login(String email, String password) async {
     final httpResponse = await http.post(

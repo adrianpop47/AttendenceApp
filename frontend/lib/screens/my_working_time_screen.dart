@@ -49,7 +49,7 @@ class _MyWorkingTimeScreenState extends State<MyWorkingTimeScreen> {
             ),
           ),
           StreamBuilder(
-            stream: Stream.periodic(const Duration(seconds: 5))
+            stream: Stream.periodic(const Duration(seconds: 2))
                 .asyncMap((i) => _getAttendanceList(selectedDate)),
             builder: (context, AsyncSnapshot snapshot) {
               if (!snapshot.hasData) {

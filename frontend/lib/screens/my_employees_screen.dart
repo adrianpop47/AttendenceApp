@@ -41,7 +41,7 @@ class _MyEmployeesScreenState extends State<MyEmployeesScreen> {
             ),
           ),
           StreamBuilder(
-            stream: Stream.periodic(const Duration(seconds: 5))
+            stream: Stream.periodic(const Duration(seconds: 2))
                 .asyncMap((i) => _getEmployeesList()),
             builder: (context, AsyncSnapshot snapshot) {
               if (!snapshot.hasData) {
